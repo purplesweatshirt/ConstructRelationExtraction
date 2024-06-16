@@ -1,0 +1,175 @@
+{
+  "constructs": [
+    {
+      "name": "Healthcare Provider",
+      "definition": ""
+    },
+    {
+      "name": "Genetic counsellor",
+      "definition": ""
+    },
+    {
+      "name": "Everything causes cancer",
+      "definition": "" 
+    },
+	{
+      "name": "Behavior change",
+      "definition": "" 
+    },
+	{
+      "name": "Cancer worries",
+      "definition": "" 
+    },
+	{
+      "name": "Cancer prevention",
+      "definition": "" 
+    },
+	{
+      "name": "Cancer detection",
+      "definition": "" 
+    },
+	{
+      "name": "Cancer treatment",
+      "definition": "" 
+    },
+	{
+      "name": "Genetic testing",
+      "definition": "" 
+    },
+	{
+      "name": "Information avoidance",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Healthcare Provider",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer prevention",
+      "significance": "<0.05",
+      "Path coefficient": 0.15,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Healthcare Provider",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer detection",
+      "significance": "<0.05",
+      "Path coefficient": 0.19,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Healthcare Provider",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer treatment",
+      "significance": "<0.01",
+      "Path coefficient": 0.18,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Genetic counsellor",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer prevention",
+      "significance": "<0.01",
+      "Path coefficient": 0.30,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Genetic counsellor",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer detection",
+      "significance": "<0.01",
+      "Path coefficient": 0.31,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Genetic counsellor",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer treatment",
+      "significance": "<0.01",
+      "Path coefficient": 0.25,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Everything causes cancer",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer worries",
+      "significance": "<0.01",
+      "Path coefficient": 0.11,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Behavior change",
+      "Construct Moderator": "None",
+      "Construct to": "Cancer worries",
+      "significance": "<0.01",
+      "Path coefficient": 0.05,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Behavior change",
+      "Construct Moderator": "None",
+      "Construct to": "Information avoidance",
+      "significance": "<0.01",
+      "Path coefficient": -0.22,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Cancer worries",
+      "Construct Moderator": "None",
+      "Construct to": "Genetic testing",
+      "significance": "<0.01",
+      "Path coefficient": 0.06,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Cancer prevention",
+      "Construct Moderator": "None",
+      "Construct to": "Genetic testing",
+      "significance": "<0.01",
+      "Path coefficient": 0.25,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Cancer detection",
+      "Construct Moderator": "None",
+      "Construct to": "Genetic testing",
+      "significance": "<0.01",
+      "Path coefficient": 0.28,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Cancer treatment",
+      "Construct Moderator": "None",
+      "Construct to": "Genetic testing",
+      "significance": "<0.01",
+      "Path coefficient": 0.12,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Information avoidance",
+      "Construct Moderator": "None",
+      "Construct to": "Genetic testing",
+      "significance": "<0.01",
+      "Path coefficient": -0.06,
+      "Observations": 193,
+      "model": "1"
+    }
+	
+  ],
+  "source": "https://doi.org/10.3390/life12122024",
+  "information_source": "Genetic counsellors, healthcare providers, behavior change not mentioned with path coefficients"
+}

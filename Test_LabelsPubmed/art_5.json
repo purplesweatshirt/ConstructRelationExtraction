@@ -1,0 +1,57 @@
+{
+  "constructs": [
+    {
+      "name": "Workplace bullying",
+      "definition": ""
+    },
+    {
+      "name": "Turnover intention",
+      "definition": ""
+    },
+    {
+      "name": "Organizational commitment",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Workplace bullying",
+      "Construct Moderator": "None",
+      "Construct to": "Organizational commitment",
+      "significance": "<0.001",
+      "Path coefficient": -0.64,
+      "Observations": 585,
+      "model": "1"
+    },
+	{
+      "Construct from": "Organizational commitment",
+      "Construct Moderator": "None",
+      "Construct to": "Turnover intention",
+      "significance": "<0.001",
+      "Path coefficient": -0.44,
+      "Observations": 585,
+      "model": "1"
+    },
+	{
+      "Construct from": "Workplace bullying",
+      "Construct Moderator": "None",
+      "Construct to": "Turnover intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.41,
+      "Observations": 585,
+      "model": "1"
+    },
+    {
+      "Construct from": "Workplace bullying",
+      "Construct Moderator": "Organizational commitment",
+      "Construct to": "Turnover intention",
+      "significance": "",
+      "Path coefficient": 0.280,
+      "Observations": 585,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12912-023-01547-8"
+}
+
+

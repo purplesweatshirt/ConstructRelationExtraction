@@ -1,0 +1,50 @@
+{
+  "constructs": [
+    {
+      "name": "Motivation",
+      "definition": ""
+    },
+    {
+      "name": "Exercise_Involvement",
+      "definition": ""
+    },
+    {
+      "name": "Constraint",
+      "definition": "" 
+    },
+	{
+      "name": "Willingness to pay",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Motivation",
+      "Construct Moderator": "None",
+      "Construct to": "Willingness to pay",
+      "significance": "<0.05",
+      "Path coefficient": 0.11,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Exercise Involvement",
+      "Construct Moderator": "None",
+      "Construct to": "Willingness to pay",
+      "significance": "<0.01",
+      "Path coefficient": 0.20,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Constraint",
+      "Construct Moderator": "None",
+      "Construct to": "Willingness to pay",
+      "significance": ">0.1",
+      "Path coefficient": -0.07,
+      "Observations": 193,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpubh.2022.992500"
+}

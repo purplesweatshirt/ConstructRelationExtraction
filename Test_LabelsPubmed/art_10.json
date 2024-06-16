@@ -1,0 +1,172 @@
+{
+  "constructs": [
+    {
+      "name": "Remote Teaching Activities: Expository activities",
+      "definition": ""
+    },
+	{
+      "name": "Remote Teaching Activities: Planned Digital Resources",
+      "definition": ""
+    },
+	{
+      "name": "Remote Teaching Activities: Interactive Activities",
+      "definition": ""
+    },
+	{
+      "name": "Remote Teaching Activities: Tutorials",
+      "definition": ""
+    },
+    {
+      "name": "Learning Resources Availability: Workplace availability",
+      "definition": ""
+    },
+	{
+      "name": "Learning Resources Availability: Technology resources",
+      "definition": ""
+    },
+    {
+      "name": "Daily Life Activities: Housekeeping",
+      "definition": ""
+    },
+	{
+      "name": "Daily Life Activities: Caring for others",
+      "definition": ""
+    },
+	{
+      "name": "Well-being changes: Well-being",
+      "definition": ""
+    },
+	{
+      "name": "Well-being changes: Social support",
+      "definition": ""
+    },
+	{
+      "name": "Gender",
+      "definition": ""
+    },
+    {
+      "name": "Age",
+      "definition": ""
+    },
+    {
+      "name": "Level",
+      "definition": "" 
+    },
+	{
+      "name": "Personality Types",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Daily Life Activities: Housekeeping",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": ">0.001",
+      "Path coefficient":  -0.025,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Daily Life Activities: Caring for others",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": ">0.001",
+      "Path coefficient": -0.084,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Remote Teaching Activities: Expository activities",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": "'>0.001",
+      "Path coefficient": -0.056,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Remote Teaching Activities: Planned Digital Resources",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": ">0.001",
+      "Path coefficient": 0.223,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Remote Teaching Activities: Interactive Activities",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": ">0.001",
+      "Path coefficient": -0.204,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Remote Teaching Activities: Tutorials",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": "<0.001",
+      "Path coefficient": 0.221,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Learning Resources Availability: Workplace availability",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": "<0.001",
+      "Path coefficient": 0.360,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Learning Resources Availability: Technology resources",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": ">0.001",
+      "Path coefficient": -0.012,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Well-being changes: Social support",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": "<0.001",
+      "Path coefficient": 0.174,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Gender",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": "<0.001",
+      "Path coefficient": -0.125,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Age",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": ">0.001",
+      "Path coefficient": 0.024,
+      "Observations": 9365,
+      "model": "1"
+    },
+	{
+      "Construct from": "Level",
+      "Construct Moderator": "None",
+      "Construct to": "Well-being changes: Well-being",
+      "significance": "<0.001",
+      "Path coefficient": 0.539,
+      "Observations": 9365,
+      "model": "1"
+    }	
+  ],
+  "source": "https://doi.org/10.1186/s12909-023-04011-y",
+  "information_source": "Different construct names, only 4 pcs"
+}

@@ -1,0 +1,68 @@
+{
+  "constructs": [
+    {
+      "name": "Attitudes",
+      "definition": ""
+    },
+	{
+      "name": "Subjective Norms",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Behavior Controls",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Interactivity",
+      "definition": "" 
+    },
+	{
+      "name": "Intention to use",
+      "definition": "" 
+    },
+	{
+      "name": "Participating groups and during COVID-19",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Attitudes",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to use",
+      "significance": "<0.001",
+      "Path coefficient": 0.582,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Norms",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to use",
+      "significance": "<0.01",
+      "Path coefficient": 0.130,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Behavior Controls",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to use",
+      "significance": "<0.001",
+      "Path coefficient": 0.113,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Interactivity",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to use",
+      "significance": "<0.001",
+      "Path coefficient": 0.252,
+      "Observations": 486,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph20010592",
+  "information_source": "Image and table only"
+}

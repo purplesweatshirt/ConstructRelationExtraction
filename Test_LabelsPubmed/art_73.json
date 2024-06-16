@@ -1,0 +1,143 @@
+{
+  "constructs": [
+    {
+      "name": "Amount of Work",
+      "definition": ""
+    },
+	{
+      "name": "Work Pace",
+      "definition": "" 
+    },
+	{
+      "name": "Cognitive Demands",
+      "definition": "" 
+    },
+	{
+      "name": "Emotional Demands",
+      "definition": "" 
+    },
+	{
+      "name": "Team learning behaviours",
+      "definition": "" 
+    },
+	{
+      "name": "Team members work engagement",
+      "definition": "" 
+    },
+	{
+      "name": "Dealing with emotions in the Team",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Cognitive Demands",
+      "Construct Moderator": "None",
+      "Construct to": "Team learning behaviours",
+      "significance": "<0.01",
+      "Path coefficient": 0.670,
+      "Observations": 298,
+      "model": "1"
+    },
+	{
+      "Construct from": "Cognitive Demands",
+      "Construct Moderator": "None",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": 0.54,
+      "Observations": 298,
+      "model": "1"
+    },
+	{
+      "Construct from": "Emotional Demands",
+      "Construct Moderator": "None",
+      "Construct to": "Team learning behaviours",
+      "significance": "<0.05",
+      "Path coefficient": -0.378,
+      "Observations": 298,
+      "model": "1"
+    },
+	{
+      "Construct from": "Emotional Demands",
+      "Construct Moderator": "None",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": -0.43,
+      "Observations": 298,
+      "model": "1"
+    },
+	{
+      "Construct from": "Team learning behaviours",
+      "Construct Moderator": "None",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": 0.19,
+      "Observations": 298,
+      "model": "1"
+    },
+    {
+      "Construct from": "Cognitive Demands",
+      "Construct Moderator": "Team learning behaviours",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": 0.12,
+      "Observations": 298,
+      "model": "1"
+    },
+    {
+      "Construct from": "Emotional Demands",
+      "Construct Moderator": "Team learning behaviours",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.05",
+      "Path coefficient": -0.07,
+      "Observations": 298,
+      "model": "1"
+    },
+	{
+      "Construct from": "Cognitive Demands",
+      "Construct Moderator": "None",
+      "Construct to": "Dealing with emotions in the Team",
+      "significance": "<0.01",
+      "Path coefficient": 0.48,
+      "Observations": 298,
+      "model": "2"
+    },
+	{
+      "Construct from": "Cognitive Demands",
+      "Construct Moderator": "None",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": 0.54,
+      "Observations": 298,
+      "model": "2"
+    },
+	{
+      "Construct from": "Team demands at work",
+      "Construct Moderator": "Dealing with emotions in the Team",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": 0.12,
+      "Observations": 298,
+      "model": "1"
+    },
+	{
+      "Construct from": "Emotional Demands",
+      "Construct Moderator": "None",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": -0.45,
+      "Observations": 298,
+      "model": "2"
+    },
+	{
+      "Construct from": "Dealing with emotions in the Team",
+      "Construct Moderator": "None",
+      "Construct to": "Team members work engagement",
+      "significance": "<0.01",
+      "Path coefficient": 0.25,
+      "Observations": 298,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2023.1196154"
+}

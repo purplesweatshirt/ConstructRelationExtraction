@@ -1,0 +1,104 @@
+{
+  "constructs": [
+    {
+      "name": "Physical Exercise",
+      "definition": ""
+    },
+    {
+      "name": "Psychological Resilience",
+      "definition": ""
+    },
+    {
+      "name": "Perceived Stress",
+      "definition": ""
+    },
+    {
+      "name": "Mobile Phone Addiction",
+      "definition": ""
+	}
+  ],
+  "relations": [
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Mobile Phone Addiction",
+      "significance": ">0.1",
+      "Path coefficient": -0.0772,
+      "Observations": 257,
+      "model": "1"
+    },
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Psychological Resilience",
+      "significance": "<0.05",
+      "Path coefficient": 0.195,
+      "Observations": 257,
+      "model": "1"
+    },
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Stress",
+      "significance": ">0.1",
+      "Path coefficient": -0.0691,
+      "Observations": 257,
+      "model": "1"
+    },
+    {
+      "Construct from": "Psychological Resilience",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Stress",
+      "significance": "<0.05",
+      "Path coefficient": -0.2152,
+      "Observations": 257,
+      "model": "1"
+    },
+    {
+      "Construct from": "Psychological Resilience",
+      "Construct Moderator": "None",
+      "Construct to": "Mobile Phone Addiction",
+      "significance": "<0.05",
+      "Path coefficient": -0.14,
+      "Observations": 257,
+      "model": "1"
+    },
+    {
+      "Construct from": "Perceived Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Mobile Phone Addiction",
+      "significance": "<0.001",
+      "Path coefficient": 0.4069,
+      "Observations": 257,
+      "model": "1"
+    },
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Mobile Phone Addiction",
+      "significance": "<0.05",
+      "Path coefficient": -0.115,
+      "Observations": "",
+      "model": "2"
+    },
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "Psychological Resilience",
+      "Construct to": "Mobile Phone Addiction",
+      "significance": "",
+      "Path coefficient": -0.0273,
+      "Observations": "",
+      "model": "2"
+    },
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "Perceived Stress",
+      "Construct to": "Mobile Phone Addiction",
+      "significance": "",
+      "Path coefficient": -0.0281,
+      "Observations": "",
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph192315679"
+}

@@ -1,0 +1,112 @@
+{
+  "constructs": [
+    {
+      "name": "Anxiety",
+      "definition": ""
+    },
+	{
+      "name": "Pregnancy Stress",
+      "definition": "" 
+    },
+	{
+      "name": "Self-efficacy",
+      "definition": "" 
+    },
+	{
+      "name": "Depression",
+      "definition": "" 
+    },
+	{
+      "name": "Social support",
+      "definition": "" 
+    },
+	{
+      "name": "Resilience",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Pregnancy Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.01",
+      "Path coefficient": 0.30,
+      "Observations": 774,
+      "model": "1"
+    },
+	{
+      "Construct from": "Pregnancy Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Anxiety",
+      "significance": "<0.01",
+      "Path coefficient": 0.57,
+      "Observations": 774,
+      "model": "1"
+    },
+    {
+      "Construct from": "Pregnancy Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Self-efficacy",
+      "significance": "<0.01",
+      "Path coefficient": -0.19,
+      "Observations": 774,
+      "model": "1"
+    },
+	{
+      "Construct from": "Anxiety",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.01",
+      "Path coefficient": 0.54,
+      "Observations": 774,
+      "model": "1"
+    },
+	{
+      "Construct from": "Anxiety",
+      "Construct Moderator": "None",
+      "Construct to": "Social support",
+      "significance": "<0.01",
+      "Path coefficient": -0.45,
+      "Observations": 774,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social support",
+      "Construct Moderator": "None",
+      "Construct to": "Self-efficacy",
+      "significance": "<0.01",
+      "Path coefficient": 0.37,
+      "Observations": 774,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social support",
+      "Construct Moderator": "None",
+      "Construct to": "Resilience",
+      "significance": "<0.01",
+      "Path coefficient": 0.47,
+      "Observations": 774,
+      "model": "1"
+    },
+	{
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Resilience",
+      "significance": "<0.01",
+      "Path coefficient": 0.41,
+      "Observations": 774,
+      "model": "1"
+    },
+	{
+      "Construct from": "Resilience",
+      "Construct Moderator": "None",
+      "Construct to": "Anxiety",
+      "significance": "<0.05",
+      "Path coefficient": -0.09,
+      "Observations": 774,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2022.1067757"
+}

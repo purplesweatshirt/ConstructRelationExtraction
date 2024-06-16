@@ -1,0 +1,135 @@
+{
+  "constructs": [
+    {
+      "name": "care-seeking behavior",
+      "definition": ""
+    },
+	{
+      "name": "social stigma",
+      "definition": "" 
+    },
+	{
+      "name": "social trust",
+      "definition": "" 
+    },
+	{
+      "name": "professional support",
+      "definition": "" 
+    },
+	{
+      "name": "mental health",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "care-seeking behavior",
+      "Construct Moderator": "None",
+      "Construct to": "mental health",
+      "significance": "None",
+      "Path coefficient": 0.002,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "care-seeking behavior",
+      "Construct Moderator": "None",
+      "Construct to": "social stigma",
+      "significance": "None",
+      "Path coefficient": -0.096,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "care-seeking behavior",
+      "Construct Moderator": "None",
+      "Construct to": "professional support",
+      "significance": "None",
+      "Path coefficient": 0.326,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "social stigma",
+      "Construct Moderator": "None",
+      "Construct to": "mental health",
+      "significance": "None",
+      "Path coefficient": -0.299,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "social stigma",
+      "Construct Moderator": "None",
+      "Construct to": "professional support",
+      "significance": "None",
+      "Path coefficient": -0.054,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "professional support",
+      "Construct Moderator": "None",
+      "Construct to": "mental health",
+      "significance": "None",
+      "Path coefficient": 0.083,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "care-seeking behavior",
+      "Construct Moderator": "None",
+      "Construct to": "social trust",
+      "significance": "None",
+      "Path coefficient": 0.104,
+      "Observations": 486,
+      "model": "2"
+    },
+	{
+      "Construct from": "care-seeking behavior",
+      "Construct Moderator": "None",
+      "Construct to": "professional support",
+      "significance": "None",
+      "Path coefficient": 0.322,
+      "Observations": 486,
+      "model": "2"
+    },
+	{
+      "Construct from": "care-seeking behavior",
+      "Construct Moderator": "None",
+      "Construct to": "mental health",
+      "significance": "None",
+      "Path coefficient": 0.012,
+      "Observations": 486,
+      "model": "2"
+    },
+	{
+      "Construct from": "social trust",
+      "Construct Moderator": "None",
+      "Construct to": "professional support",
+      "significance": "None",
+      "Path coefficient": 0.143,
+      "Observations": 486,
+      "model": "2"
+    },
+	{
+      "Construct from": "social trust",
+      "Construct Moderator": "None",
+      "Construct to": "mental health",
+      "significance": "None",
+      "Path coefficient": 0.250,
+      "Observations": 486,
+      "model": "2"
+    },
+	{
+      "Construct from": "professional support",
+      "Construct Moderator": "None",
+      "Construct to": "mental health",
+      "significance": "None",
+      "Path coefficient": 0.064,
+      "Observations": 486,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12889-023-17310-2"
+}

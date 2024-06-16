@@ -1,0 +1,289 @@
+{
+  "constructs": [
+    {
+      "name": "Subjective Support",
+      "definition": ""
+    },
+    {
+      "name": "Objective Support",
+      "definition": ""
+    },
+    {
+      "name": "Support Utilization",
+      "definition": "" 
+    },
+	{
+      "name": "Social Support",
+      "definition": "" 
+    },
+	{
+      "name": "Irrational consumption tendencies",
+      "definition": "" 
+    },
+	{
+      "name": "susceptibility to persuasion",
+      "definition": "" 
+    },
+	{
+      "name": "Interpersonal influence",
+      "definition": "" 
+    },
+	{
+      "name": "Pursuit of added value",
+      "definition": "" 
+    },
+	{
+      "name": "Friendship",
+      "definition": "" 
+    },
+	{
+      "name": "Social Interaction",
+      "definition": "" 
+    },
+	{
+      "name": "Belonging",
+      "definition": "" 
+    },
+	{
+      "name": "Loneliness",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Subjective Support",
+      "significance": "None",
+      "Path coefficient": 0.66,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Objective Support",
+      "significance": "None",
+      "Path coefficient": 0.73,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Support Utilization",
+      "significance": "None",
+      "Path coefficient": 0.45,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "<0.001",
+      "Path coefficient": -0.37,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "susceptibility to persuasion",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "None",
+      "Path coefficient": 0.68,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Interpersonal influence",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "None",
+      "Path coefficient": 0.58,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Pursuit of added value",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "None",
+      "Path coefficient": 0.63,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Fear of aging",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "None",
+      "Path coefficient": 0.71,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Fear of aging",
+      "Construct Moderator": "None",
+      "Construct to": "Fear of aging",
+      "significance": "None",
+      "Path coefficient": 0.71,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Subjective Support",
+      "significance": "None",
+      "Path coefficient": null,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Objective Support",
+      "significance": "None",
+      "Path coefficient": null,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Support Utilization",
+      "significance": "None",
+      "Path coefficient": null,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "<0.001",
+      "Path coefficient": -0.21,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Loneliness",
+      "significance": "<0.05",
+      "Path coefficient": -0.26,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Friendship",
+      "Construct Moderator": "None",
+      "Construct to": "Loneliness",
+      "significance": "None",
+      "Path coefficient": 0.74,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Social Interaction",
+      "Construct Moderator": "None",
+      "Construct to": "Loneliness",
+      "significance": "None",
+      "Path coefficient": 0.80,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Belonging",
+      "Construct Moderator": "None",
+      "Construct to": "Loneliness",
+      "significance": "None",
+      "Path coefficient": 0.69,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "<0.001",
+      "Path coefficient": 0.61,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "susceptibility to persuasion",
+      "significance": "None",
+      "Path coefficient": 0.55,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "Interpersonal influence",
+      "significance": "None",
+      "Path coefficient": 0.83,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "Pursuit of added value",
+      "significance": "None",
+      "Path coefficient": 0.43,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "Fear of aging",
+      "significance": "None",
+      "Path coefficient": 0.87,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Interpersonal influence",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "None",
+      "Path coefficient": 0.79,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Pursuit of added value",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "None",
+      "Path coefficient": 0.48,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Fear of aging",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational consumption tendencies",
+      "significance": "None",
+      "Path coefficient": 0.77,
+      "Observations": 468,
+      "model": "2"
+    },
+	{
+      "Construct from": "Fear of aging",
+      "Construct Moderator": "None",
+      "Construct to": "Fear of aging",
+      "significance": "None",
+      "Path coefficient": 0.80,
+      "Observations": 468,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph192114404"
+}

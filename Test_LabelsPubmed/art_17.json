@@ -1,0 +1,116 @@
+{
+  "constructs": [
+    {
+      "name": "Evaluation of Soil Fertility",
+      "definition": ""
+    },
+    {
+      "name": "Total Nutrients",
+      "definition": ""
+    },
+    {
+      "name": "Available Nutrients",
+      "definition": "" 
+    },
+	{
+      "name": "Soil Organic Matter",
+      "definition": "" 
+    },
+	{
+      "name": "Total Nitrogen",
+      "definition": "" 
+    },
+	{
+      "name": "Total Phosphorus",
+      "definition": "" 
+    },
+	{
+      "name": "Available Nitrogen",
+      "definition": "" 
+    },
+	{
+      "name": "Available Phosphorus",
+      "definition": "" 
+    },
+	{
+      "name": "Available Potassium",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Evaluation of Soil Fertility",
+      "Construct Moderator": "None",
+      "Construct to": "Total Nutrients",
+      "significance": "None",
+      "Path coefficient": 0.51,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Evaluation of Soil Fertility",
+      "Construct Moderator": "None",
+      "Construct to": "Available Nutrients",
+      "significance": "None",
+      "Path coefficient": 0.60,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Total Nutrients",
+      "Construct Moderator": "None",
+      "Construct to": "Soil Organic Matter",
+      "significance": "None",
+      "Path coefficient": 0.89,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Total Nutrients",
+      "Construct Moderator": "None",
+      "Construct to": "Total Nitrogen",
+      "significance": "None",
+      "Path coefficient": 0.96,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Total Nutrients",
+      "Construct Moderator": "None",
+      "Construct to": "Total Phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.46,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Available Nutrients",
+      "Construct Moderator": "None",
+      "Construct to":  "Available Nitrogen",
+      "significance": "None",
+      "Path coefficient": 0.42,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Available Nutrients",
+      "Construct Moderator": "None",
+      "Construct to":  "Available Phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.78,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Available Nutrients",
+      "Construct Moderator": "None",
+      "Construct to":  "Available Potassium",
+      "significance": "None",
+      "Path coefficient": 0.77,
+      "Observations": 500,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/plants12020410",
+  "information_source": "Total/ Available nutrients are referred to as endogneous latent variables; other paths are reversed in text"
+}

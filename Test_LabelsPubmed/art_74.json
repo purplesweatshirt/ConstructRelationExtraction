@@ -1,0 +1,140 @@
+{
+  "constructs": [
+    {
+      "name": "Health literacy",
+      "definition": ""
+    },
+	{
+      "name": "Self-efficacy",
+      "definition": "" 
+    },
+	{
+      "name": "Health outcomes",
+      "definition": "" 
+    },
+	{
+      "name": "Physical component summary",
+      "definition": "" 
+    },
+	{
+      "name": "Mental component summary",
+      "definition": "" 
+    },
+	{
+      "name": "the disease duration",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Health literacy",
+      "Construct Moderator": "None",
+      "Construct to": "Self-efficacy",
+      "significance": "<0.001",
+      "Path coefficient": 0.41,
+      "Observations": 471,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health literacy",
+      "Construct Moderator": "disease duration >= 10 years",
+      "Construct to": "Self-efficacy",
+      "significance": "<0.001",
+      "Path coefficient": 0.475,
+      "Observations": 471,
+      "model": "1"
+    },
+    {
+      "Construct from": "Health literacy",
+      "Construct Moderator": "disease duration < 10 years",
+      "Construct to": "Self-efficacy",
+      "significance": "<0.001",
+      "Path coefficient": 0.336,
+      "Observations": 471,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health literacy",
+      "Construct Moderator": "None",
+      "Construct to": "Health outcomes",
+      "significance": "<0.001",
+      "Path coefficient": 0.52,
+      "Observations": 471,
+      "model": "1"
+    },
+    {
+      "Construct from": "Health literacy",
+      "Construct Moderator": "Self-efficacy",
+      "Construct to": "Health outcomes",
+      "significance": "<0.001",
+      "Path coefficient": 0.192,
+      "Observations": 471,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health literacy",
+      "Construct Moderator": "disease duration >= 10 years",
+      "Construct to": "Health outcomes",
+      "significance": "None",
+      "Path coefficient": 0.551,
+      "Observations": 471,
+      "model": "1"
+    },
+    {
+      "Construct from": "Health literacy",
+      "Construct Moderator": "disease duration < 10 years",
+      "Construct to": "Health outcomes",
+      "significance": "None",
+      "Path coefficient": 0.496,
+      "Observations": 471,
+      "model": "1"
+    },
+	{
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Health outcomes",
+      "significance": "<0.001",
+      "Path coefficient": 0.46,
+      "Observations": 471,
+      "model": "1"
+    },
+	{
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "disease duration >= 10 years",
+      "Construct to": "Health outcomes",
+      "significance": "<0.001",
+      "Path coefficient": 0.49,
+      "Observations": 471,
+      "model": "1"
+    },
+    {
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "disease duration < 10 years",
+      "Construct to": "Health outcomes",
+      "significance": "<0.001",
+      "Path coefficient": 0.401,
+      "Observations": 471,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health outcomes",
+      "Construct Moderator": "None",
+      "Construct to": "Physical component summary",
+      "significance": "<0.001",
+      "Path coefficient": 0.90,
+      "Observations": 471,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health outcomes",
+      "Construct Moderator": "None",
+      "Construct to": "Mental component summary",
+      "significance": "<0.001",
+      "Path coefficient": 0.79,
+      "Observations": 471,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpubh.2022.1069174",
+  "information_source": "PCS, MCS in image only"
+}

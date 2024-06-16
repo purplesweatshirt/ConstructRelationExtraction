@@ -1,0 +1,50 @@
+{
+  "constructs": [
+    {
+      "name": "Coping strategies",
+      "definition": ""
+    },
+	{
+      "name": "Stigma of Seeking Help",
+      "definition": "" 
+    },
+	{
+      "name": "Professional Help Seeking Intentions",
+      "definition": "" 
+    },
+	{
+      "name": "USS score",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "USS score",
+      "Construct Moderator": "None",
+      "Construct to": "Coping strategies",
+      "significance": "<0.001",
+      "Path coefficient": 0.08,
+      "Observations": 3754,
+      "model": "1"
+    },
+	{
+      "Construct from": "Coping strategies",
+      "Construct Moderator": "None",
+      "Construct to": "Stigma of Seeking Help",
+      "significance": "<0.001",
+      "Path coefficient": -0.12,
+      "Observations": 3754,
+      "model": "1"
+    },
+	{
+      "Construct from": "Stigma of Seeking Help",
+      "Construct Moderator": "None",
+      "Construct to": "Professional Help Seeking Intentions",
+      "significance": "<0.001",
+      "Path coefficient": -0.57,
+      "Observations": 3754,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s40359-023-01171-w"
+}

@@ -1,0 +1,211 @@
+{
+  "constructs": [
+    {
+      "name": "Perceived management support",
+      "definition": ""
+    },
+	{
+      "name": "Job satisfaction",
+      "definition": "" 
+    },
+	{
+      "name": "Intrinsic Motivation",
+      "definition": "" 
+    },
+	{
+      "name": "Integrated Motivation",
+      "definition": "" 
+    },
+	{
+      "name": "Identified Motivation",
+      "definition": "" 
+    },
+	{
+      "name": "Introjected Motivation",
+      "definition": "" 
+    },
+	{
+      "name": "External Motivation",
+      "definition": "" 
+    },
+	{
+      "name": "Amotivation",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.356,
+      "Observations": 486,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "Intrinsic Motivation",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.05",
+      "Path coefficient": 0.017,
+      "Observations": 486,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "Integrated Motivation",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.05",
+      "Path coefficient": 0.15,
+      "Observations": 486,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "Identified Motivation",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.233,
+      "Observations": 486,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "Introjected Motivation",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.05",
+      "Path coefficient": 0.136,
+      "Observations": 486,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "External Motivation",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.291,
+      "Observations": 486,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "Amotivation",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.05",
+      "Path coefficient": -0.094,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "None",
+      "Construct to": "Intrinsic Motivation",
+      "significance": "<0.01",
+      "Path coefficient": 0.153,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "None",
+      "Construct to": "Integrated Motivation",
+      "significance": "<0.001",
+      "Path coefficient": 0.352,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "None",
+      "Construct to": "Identified Motivation",
+      "significance": "<0.001",
+      "Path coefficient": 0.348,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "None",
+      "Construct to": "Introjected Motivation",
+      "significance": "<0.001",
+      "Path coefficient": 0.314,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "None",
+      "Construct to": "External Motivation",
+      "significance": "<0.001",
+      "Path coefficient": 0.364,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived management support",
+      "Construct Moderator": "None",
+      "Construct to": "Amotivation",
+      "significance": "<0.001",
+      "Path coefficient": -0.415,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Intrinsic Motivation",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.05",
+      "Path coefficient": 0.112,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Integrated Motivation",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.05",
+      "Path coefficient": 0.15,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Identified Motivation",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.233,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Introjected Motivation",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.136,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "External Motivation",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.291,
+      "Observations": 486,
+      "model": "1"
+    },
+	{
+      "Construct from": "Amotivation",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.05",
+      "Path coefficient": -0.094,
+      "Observations": 486,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12960-023-00849-x",
+  "information_source": "Path coefficients in the text are shifted"
+}

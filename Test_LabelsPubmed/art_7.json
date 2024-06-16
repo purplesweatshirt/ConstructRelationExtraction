@@ -1,0 +1,135 @@
+{
+  "constructs": [
+    {
+      "name": "Positive relationships with friends and school teachers",
+      "definition": ""
+    },
+    {
+      "name": "Positive perceptions of current circumstances",
+      "definition": ""
+    },
+    {
+      "name": "Poorer subjective health status",
+      "definition": "" 
+    },
+	{
+      "name": "Having people to share experiences and thoughts with",
+      "definition": "" 
+    },
+	{
+      "name": "Positive perceptions of attending school",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Positive relationships with friends and school teachers",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.001",
+      "Path coefficient": 0.422,
+      "Observations": 6245,
+      "model": "1"
+    },
+	{
+      "Construct from": "Positive perceptions of current circumstances",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.001",
+      "Path coefficient": 0.113,
+      "Observations": 6245,
+      "model": "1"
+    },
+	{
+      "Construct from": "Poorer subjective health status",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.001",
+      "Path coefficient": -0.217,
+      "Observations": 6245,
+      "model": "1"
+    },
+    {
+      "Construct from": "Poorer subjective health status",
+      "Construct Moderator": "None",
+      "Construct to": "Mental health",
+      "significance": "<0.001",
+      "Path coefficient": 0.752,
+      "Observations": 6245,
+      "model": "1"
+    },
+    {
+      "Construct from": "Poorer subjective health status",
+      "Construct Moderator": "None",
+      "Construct to": "Physical health",
+      "significance": "<0.001",
+      "Path coefficient": 0.656,
+      "Observations": 6245,
+      "model": "1"
+    },
+	{
+      "Construct from": "Having people to share experiences and thoughts with",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.001",
+      "Path coefficient": 0.047,
+      "Observations": 6245,
+      "model": "1"
+    },
+	{
+      "Construct from": "Positive relationships with friends and school teacherst",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.001",
+      "Path coefficient": 0.421,
+      "Observations": 6245,
+      "model": "2"
+    },
+	{
+      "Construct from": "Positive perceptions of current circumstances",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.001",
+      "Path coefficient": 0.117,
+      "Observations": 6245,
+      "model": "2"
+    },
+	{
+      "Construct from": "Poorer subjective health status",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.001",
+      "Path coefficient": -0.221,
+      "Observations": 6245,
+      "model": "2"
+    },
+    {
+      "Construct from": "Poorer subjective health status",
+      "Construct Moderator": "None",
+      "Construct to": "Mental health",
+      "significance": "<0.001",
+      "Path coefficient": 0.776,
+      "Observations": 6245,
+      "model": "2"
+    },
+    {
+      "Construct from": "Poorer subjective health status",
+      "Construct Moderator": "None",
+      "Construct to": "Physical health",
+      "significance": "<0.001",
+      "Path coefficient": 0.629,
+      "Observations": 6245,
+      "model": "2"
+    },
+	{
+      "Construct from": "Having people to share experiences and thoughts with",
+      "Construct Moderator": "None",
+      "Construct to": "Positive perceptions of attending school",
+      "significance": "<0.05",
+      "Path coefficient": 0.038,
+      "Observations": 6245,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s13034-023-00631-w"
+}

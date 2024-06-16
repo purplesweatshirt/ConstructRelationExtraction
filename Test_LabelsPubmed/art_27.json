@@ -1,0 +1,110 @@
+{
+  "constructs": [
+    {
+      "name": "Self-efficacy of exercise",
+      "definition": ""
+    },
+    {
+      "name": "Peer Support",
+      "definition": ""
+    },
+    {
+      "name": "Physical activity level",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Peer Support",
+      "Construct Moderator": "None",
+      "Construct to": "Physical activity level",
+      "significance": "None",
+      "Path coefficient": 0.47,
+      "Observations": 336,
+      "model": "Overall"
+    },
+	{
+      "Construct from": "Peer Support",
+      "Construct Moderator": "None",
+      "Construct to": "Self-efficacy of exercise",
+      "significance": "None",
+      "Path coefficient": 0.14,
+      "Observations": 336,
+      "model": "Overall"
+    },
+	{
+      "Construct from": "Self-efficacy of exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Physical activity level",
+      "significance": "None",
+      "Path coefficient": 0.58,
+      "Observations": 336,
+      "model": "Overall"
+    },
+  {
+      "Construct from": "Peer Support",
+      "Construct Moderator": "Self-efficacy of exercise",
+      "Construct to": "Physical activity level",
+      "significance": "None",
+      "Path coefficient": 0.27,
+      "Observations": 336,
+      "model": "Overall"
+    },
+	{
+      "Construct from": "Peer Support",
+      "Construct Moderator": "None",
+      "Construct to": "Physical activity level",
+      "significance": "None",
+      "Path coefficient": 0.51,
+      "Observations": 160,
+      "model": "Male"
+    },
+	{
+      "Construct from": "Peer Support",
+      "Construct Moderator": "None",
+      "Construct to": "Self-efficacy of exercise",
+      "significance": "None",
+      "Path coefficient": 0.12,
+      "Observations": 160,
+      "model": "Male"
+    },
+	{
+      "Construct from": "Self-efficacy of exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Physical activity level",
+      "significance": "None",
+      "Path coefficient": 0.63,
+      "Observations": 160,
+      "model": "Male"
+    },
+	{
+      "Construct from": "Peer Support",
+      "Construct Moderator": "None",
+      "Construct to": "Physical activity level",
+      "significance": "None",
+      "Path coefficient": 0.40,
+      "Observations": 176,
+      "model": "Female"
+    },
+	{
+      "Construct from": "Peer Support",
+      "Construct Moderator": "None",
+      "Construct to": "Self-efficacy of exercise",
+      "significance": "None",
+      "Path coefficient": 0.16,
+      "Observations": 176,
+      "model": "Female"
+    },
+	{
+      "Construct from": "Self-efficacy of exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Physical activity level",
+      "significance": "None",
+      "Path coefficient": 0.48,
+      "Observations": 176,
+      "model": "Female"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2023.1103109",
+  "information_source": "Coefficients only for SE->PA"
+}

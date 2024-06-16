@@ -1,0 +1,146 @@
+{
+  "constructs": [
+    {
+      "name": "Individual Innovation",
+      "definition": ""
+    },
+    {
+      "name": "Performance Expectation",
+      "definition": ""
+    },
+    {
+      "name": "Effort Expectation",
+      "definition": "" 
+    },
+	{
+      "name": "Social Influence",
+      "definition": "" 
+    },
+	{
+      "name": "Facilitating Conditions",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Risk",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Value",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Interactivity",
+      "definition": "" 
+    },
+	{
+      "name": "Behavioral Intention",
+      "definition": "" 
+    },
+	{
+      "name": "Usage Behavior",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Individual Innovation",
+      "Construct Moderator": "None",
+      "Construct to": "Performance Expectation",
+      "significance": "<0.001",
+      "Path coefficient": 0.649,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Individual Innovation",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Interactivity",
+      "significance": "<0.001",
+      "Path coefficient": 0.486,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Performance Expectation",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.071,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Effort Expectation",
+      "Construct Moderator": "None",
+      "Construct to": "Performance Expectation",
+      "significance": "<0.001",
+      "Path coefficient": 0.855,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Effort Expectation",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intention",
+      "significance": "<0.05",
+      "Path coefficient": 0.218,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Influence",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.150,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Risk",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intention",
+      "significance": "<0.001",
+      "Path coefficient": -0.026,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Value",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.129,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Interactivity",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intention",
+      "significance": "<0.05",
+      "Path coefficient": 0.015,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Behavioral Intention",
+      "Construct Moderator": "None",
+      "Construct to": "Usage Behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.827,
+      "Observations": 402,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Interactivity",
+      "Construct Moderator": "None",
+      "Construct to": "Usage Behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.848,
+      "Observations": 402,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpubh.2023.1117518"
+}

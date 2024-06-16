@@ -1,0 +1,115 @@
+{
+  "constructs": [
+    {
+      "name": "Behavioral Price",
+      "definition": ""
+    },
+	{
+      "name": "Emotional Response",
+      "definition": "" 
+    },
+	{
+      "name": "Service Quality",
+      "definition": "" 
+    },
+	{
+      "name": "Service Reputation",
+      "definition": "" 
+    },
+	{
+      "name": "Service Equity",
+      "definition": "" 
+    },
+	{
+      "name": "Confidence Benefits",
+      "definition": "" 
+    },
+	{
+      "name": "Social Benefits",
+      "definition": "" 
+    },
+	{
+      "name": "Special Treatment Benefits",
+      "definition": "" 
+    },
+	{
+      "name": "Repurchase Intentions",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Behavioral Price",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.275,
+      "Observations": 343,
+      "model": "1"
+    },
+	{
+      "Construct from": "Emotional Responses",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.323,
+      "Observations": 343,
+      "model": "1"
+    },
+	{
+      "Construct from": "Service Quality",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.455,
+      "Observations": 343,
+      "model": "1"
+    },
+	{
+      "Construct from": "Service Reputation",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.400,
+      "Observations": 343,
+      "model": "1"
+    },
+	{
+      "Construct from": "Service Equity",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.803,
+      "Observations": 343,
+      "model": "1"
+    },
+	{
+      "Construct from": "Confidence Benefits",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.532,
+      "Observations": 343,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Benefits",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.274,
+      "Observations": 343,
+      "model": "1"
+    },
+	{
+      "Construct from": "Special Treatment Advantages",
+      "Construct Moderator": "None",
+      "Construct to": "Repurchase Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.234,
+      "Observations": 343,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph192315779"
+}

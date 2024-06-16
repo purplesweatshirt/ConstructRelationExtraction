@@ -1,0 +1,131 @@
+{
+  "constructs": [
+    {
+      "name": "Happiness in a rural tourism destination",
+      "definition": ""
+    },
+	{
+      "name": "Health-seeking in rural toursim destinations",
+      "definition": "" 
+    },
+	{
+      "name": "Safety seeking in rural tourism destinations",
+      "definition": "" 
+    },
+	{
+      "name": "Tourism promotion in rural hotels",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Safety seeking in rural tourism destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Health-seeking in rural toursim destinations",
+      "significance": "<0.001",
+      "Path coefficient": 0.666,
+      "Observations": 215,
+      "model": "1"
+    },
+	{
+      "Construct from": "Safety seeking in rural tourism destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Promotion of rural tourism destination",
+      "significance": "<0.001",
+      "Path coefficient": 0.324,
+      "Observations": 215,
+      "model": "1"
+    },
+	{
+      "Construct from": "Safety seeking in rural tourism destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Happiness in a rural tourism destination",
+      "significance": "<0.001",
+      "Path coefficient": 0.302,
+      "Observations": 215,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health-seeking in rural toursim destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Happiness in a rural tourism destination",
+      "significance": "<0.001",
+      "Path coefficient": 0.435,
+      "Observations": 215,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health-seeking in rural toursim destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Tourism promotion in rural hotels",
+      "significance": "<0.001",
+      "Path coefficient": 0.258,
+      "Observations": 215,
+      "model": "1"
+    },
+	{
+      "Construct from": "Happiness in a rural tourism destination",
+      "Construct Moderator": "None",
+      "Construct to": "Tourism promotion in rural hotels",
+      "significance": "<0.001",
+      "Path coefficient": 0.325,
+      "Observations": 215,
+      "model": "1"
+    },
+	{
+      "Construct from": "Safety seeking in rural tourism destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Health-seeking in rural toursim destinations",
+      "significance": "<0.001",
+      "Path coefficient": 0.681,
+      "Observations": 443,
+      "model": "2"
+    },
+	{
+      "Construct from": "Safety seeking in rural tourism destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Tourism promotion in rural hotels",
+      "significance": "<0.001",
+      "Path coefficient": 0.363,
+      "Observations": 443,
+      "model": "2"
+    },
+	{
+      "Construct from": "Safety seeking in rural tourism destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Happiness in a rural tourism destination",
+      "significance": ">0.1",
+      "Path coefficient": 0.088,
+      "Observations": 443,
+      "model": "2"
+    },
+	{
+      "Construct from": "Health-seeking in rural toursim destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Happiness in a rural tourism destination",
+      "significance": "<0.001",
+      "Path coefficient": 0.373,
+      "Observations": 443,
+      "model": "2"
+    },
+	{
+      "Construct from": "Health-seeking in rural toursim destinations",
+      "Construct Moderator": "None",
+      "Construct to": "Tourism promotion in rural hotels",
+      "significance": "<0.001",
+      "Path coefficient": 0.473,
+      "Observations": 443,
+      "model": "2"
+    },
+	{
+      "Construct from": "Happiness in a rural tourism destination",
+      "Construct Moderator": "None",
+      "Construct to": "Tourism promotion in rural hotels",
+      "significance": "<0.001",
+      "Path coefficient": 0.387,
+      "Observations": 443,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12889-023-15849-8"
+}

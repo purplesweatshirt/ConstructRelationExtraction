@@ -1,0 +1,86 @@
+{
+  "constructs": [
+    {
+      "name": "Abusive Supervision",
+      "definition": ""
+    },
+    {
+      "name": "Thwarted Belongingness",
+      "definition": ""
+    },
+    {
+      "name": "Suicidal Ideation",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Burdensomeness",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Abusive Supervision",
+      "Construct Moderator": "None",
+      "Construct to": "Thwarted Belongingness",
+      "significance": "<0.01",
+      "Path coefficient":  0.342,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Abusive Supervision",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Burdensomeness",
+      "significance": "<0.05",
+      "Path coefficient": 0.223,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Thwarted Belongingness",
+      "Construct Moderator": "None",
+      "Construct to": "Suicidal Ideation",
+      "significance": "<0.05",
+      "Path coefficient": 0.173,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Burdensomeness",
+      "Construct Moderator": "None",
+      "Construct to": "Suicidal Ideation",
+      "significance": "<0.001",
+      "Path coefficient": 0.459,
+      "Observations": 1580,
+      "model": "1"
+    },
+    {
+      "Construct from": "Abusive Supervision",
+      "Construct Moderator": "None",
+      "Construct to": "Suicidal Ideation",
+      "significance": "<0.01",
+      "Path coefficient": 0.160,
+      "Observations": 1580,
+      "model": "1"
+    },
+    {
+      "Construct from": "Abusive Supervision",
+      "Construct Moderator": "Thwarted Belongingness",
+      "Construct to": "Suicidal Ideation",
+      "significance": "<0.05",
+      "Path coefficient": 0.059,
+      "Observations": 1580,
+      "model": "1"
+    },
+    {
+      "Construct from": "Abusive Supervision",
+      "Construct Moderator": "Perceived Burdensomeness",
+      "Construct to": "Suicidal Ideation",
+      "significance": "<0.05",
+      "Path coefficient": 0.102,
+      "Observations": 1580,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s40359-023-01136-z"
+}

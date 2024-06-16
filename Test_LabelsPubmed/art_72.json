@@ -1,0 +1,55 @@
+{
+  "constructs": [
+    {
+      "name": "COVID-19 Perceived risk",
+      "definition": ""
+    },
+	{
+      "name": "Difficulties in Emotion Regulation",
+      "definition": "" 
+    },
+	{
+      "name": "Internet Addiction",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "COVID-19 Perceived risk",
+      "Construct Moderator": "None",
+      "Construct to": "Difficulties in Emotion Regulation",
+      "significance": "<0.001",
+      "Path coefficient": 0.216,
+      "Observations": 690,
+      "model": "1"
+    },
+	{
+      "Construct from": "COVID-19 Perceived risk",
+      "Construct Moderator": "None",
+      "Construct to": "Practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.233,
+      "Observations": 690,
+      "model": "1"
+    },
+    {
+      "Construct from": "COVID-19 Perceived risk",
+      "Construct Moderator": "Difficulties in Emotion Regulation",
+      "Construct to": "Practice",
+      "significance": "None",
+      "Path coefficient": 0.051,
+      "Observations": 690,
+      "model": "1"
+    },
+	{
+      "Construct from": "Difficulties in Emotion Regulation",
+      "Construct Moderator": "None",
+      "Construct to": "Internet Addiction",
+      "significance": "<0.001",
+      "Path coefficient": 0.237,
+      "Observations": 690,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph192013377"
+}

@@ -1,0 +1,112 @@
+{
+  "constructs": [
+    {
+      "name": "Learning Behavior",
+      "definition": ""
+    },
+	{
+      "name": "Animated Movies",
+      "definition": "" 
+    },
+	{
+      "name": "Virtual Classrooms",
+      "definition": "" 
+    },
+	{
+      "name": "Educational Apps",
+      "definition": "" 
+    },
+	{
+      "name": "Students Motivation",
+      "definition": "" 
+    },
+	{
+      "name": "Knowledge Development",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Learning Behavior",
+      "Construct Moderator": "None",
+      "Construct to": "Animated Movies",
+      "significance": "<0.001",
+      "Path coefficient": 0.630,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Learning Behavior",
+      "Construct Moderator": "None",
+      "Construct to": "Virtual Classrooms",
+      "significance": "<0.001",
+      "Path coefficient": 0.543,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Learning Behavior",
+      "Construct Moderator": "None",
+      "Construct to": "Educational Apps",
+      "significance": "<0.001",
+      "Path coefficient": 0.463,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Learning Behavior",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge Development",
+      "significance": "<0.001",
+      "Path coefficient": 0.280,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Learning Behavior",
+      "Construct Moderator": "None",
+      "Construct to": "Students Motivation",
+      "significance": "0.592",
+      "Path coefficient": 0.017,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Animated Movies",
+      "Construct Moderator": "None",
+      "Construct to": "Students Motivation",
+      "significance": "<0.001",
+      "Path coefficient": 0.716,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Virtual Classrooms",
+      "Construct Moderator": "None",
+      "Construct to": "Students Motivation",
+      "significance": "<0.001",
+      "Path coefficient": 0.204,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Virtual Classrooms",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge Development",
+      "significance": "<0.001",
+      "Path coefficient": 0.396,
+      "Observations": 300,
+      "model": "1"
+    },
+	{
+      "Construct from": "Educational Apps",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge Development",
+      "significance": "<0.001",
+      "Path coefficient": 0.292,
+      "Observations": 300,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2022.933974"
+}

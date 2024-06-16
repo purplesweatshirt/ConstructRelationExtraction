@@ -1,0 +1,69 @@
+{
+  "constructs": [
+    {
+      "name": "Role Stress (Role conflict, Role ambiguity)",
+      "definition": ""
+    },
+    {
+      "name": "Innovation Performance",
+      "definition": ""
+    },
+    {
+      "name": "Interactive Budget",
+      "definition": "" 
+    },
+	{
+      "name": "Environmental Turbulence",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Interactive Budget",
+      "Construct Moderator": "None",
+      "Construct to": "Enterprise Innovation Performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.529,
+      "Observations": 228,
+      "model": "1"
+    },
+	{
+      "Construct from": "Interactive Budget",
+      "Construct Moderator": "Environmental Turbulence",
+      "Construct to": "Enterprise Innovation Performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.223,
+      "Observations": 228,
+      "model": "1"
+    },
+	{
+      "Construct from": "Interactive Budget",
+      "Construct Moderator": "None",
+      "Construct to": "Role Stress of managers",
+      "significance": "<0.001",
+      "Path coefficient": -0.343,
+      "Observations": 228,
+      "model": "1"
+    },
+	{
+      "Construct from": "Role Stress of managers",
+      "Construct Moderator": "None",
+      "Construct to": "Enterprise Innovation Performance",
+      "significance": "<0.001",
+      "Path coefficient": -0.350,
+      "Observations": 228,
+      "model": "1"
+    },
+    {
+      "Construct from": "Interactive Budget",
+      "Construct Moderator": "Role Stress of managers",
+      "Construct to": "Enterprise Innovation Performance",
+      "significance": "",
+      "Path coefficient": 0.120,
+      "Observations": 228,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph20032190",
+  "information_source": "No pc for IB -> RS -> IP"
+}

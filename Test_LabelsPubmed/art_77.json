@@ -1,0 +1,55 @@
+{
+  "constructs": [
+    {
+      "name": "Campus Walkability",
+      "definition": ""
+    },
+	{
+      "name": "Walking Attitude",
+      "definition": "" 
+    },
+	{
+      "name": "Positive Walking Emotions",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Campus Walkability",
+      "Construct Moderator": "None",
+      "Construct to": "Walking Attitude",
+      "significance": "None",
+      "Path coefficient": 0.28,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Walking Attitude",
+      "Construct Moderator": "None",
+      "Construct to": "Affective walking experience",
+      "significance": "None",
+      "Path coefficient": 0.52,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Campus Walkability",
+      "Construct Moderator": "None",
+      "Construct to": "Affective walking experience",
+      "significance": "None",
+      "Path coefficient": 0.47,
+      "Observations": 334,
+      "model": "1"
+    },
+    {
+      "Construct from": "Campus Walkability",
+      "Construct Moderator": "Walking Attitude",
+      "Construct to": "Affective walking experience",
+      "significance": "None",
+      "Path coefficient": 0.10,
+      "Observations": 334,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph192114519"
+}

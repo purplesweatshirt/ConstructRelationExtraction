@@ -1,0 +1,216 @@
+{
+  "constructs": [
+    {
+      "name": "Relationship-Contingent Self-Esteem",
+      "definition": ""
+    },
+    {
+      "name": "Stress",
+      "definition": ""
+    },
+    {
+      "name": "Impaired Control over Drinking",
+      "definition": "" 
+    },
+	{
+      "name": "Heavy Episodic Drinking",
+      "definition": "" 
+    },
+	{
+      "name": "Alcohol-Related Problems",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Relationship-Contingent Self-Esteem",
+      "Construct Moderator": "None",
+      "Construct to": "Stress",
+      "significance": "<0.001",
+      "Path coefficient": 0.52,
+      "Observations": 479,
+      "model": "1"
+    },
+	{
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Impaired Control over Drinking",
+      "significance": "<0.001",
+      "Path coefficient": 0.25,
+      "Observations": 479,
+      "model": "1"
+    },
+	{
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "<0.01",
+      "Path coefficient": 0.18,
+      "Observations": 479,
+      "model": "1"
+    },
+    {
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Heavy Episodic Drinking",
+      "significance": ">0.1",
+      "Path coefficient": -0.005,
+      "Observations": 479,
+      "model": "1"
+    },
+	{
+      "Construct from": "Impaired Control over Drinking",
+      "Construct Moderator": "None",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "<0.001",
+      "Path coefficient": 0.63,
+      "Observations": 479,
+      "model": "1"
+    },
+    {
+      "Construct from": "Heavy Episodic Drinking",
+      "Construct Moderator": "None",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "<0.1",
+      "Path coefficient": 0.15,
+      "Observations": 479,
+      "model": "1"
+    },
+    {
+      "Construct from": "Relationship-Contingent Self-Esteem",
+      "Construct Moderator": "Stress",
+      "Construct to": "Impaired Control over Drinking",
+      "significance": "",
+      "Path coefficient": 0.083,
+      "Observations": 479,
+      "model": "1"
+    },
+    {
+      "Construct from": "Relationship-Contingent Self-Esteem",
+      "Construct Moderator": "Stress",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "",
+      "Path coefficient": 0.047,
+      "Observations": 479,
+      "model": "1"
+    },
+    {
+      "Construct from": "Stress",
+      "Construct Moderator": "Impaired Control over Drinking",
+      "Construct to": "Heavy Episodic Drinking",
+      "significance": "",
+      "Path coefficient": 0.300,
+      "Observations": 479,
+      "model": "1"
+    },
+    {
+      "Construct from": "Stress",
+      "Construct Moderator": "Impaired Control over Drinking",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "",
+      "Path coefficient": 0.150,
+      "Observations": 479,
+      "model": "1"
+    },
+	{
+      "Construct from": "Impaired Control over Drinking",
+      "Construct Moderator": "None",
+      "Construct to": "Heavy Episodic Drinking",
+      "significance": "<0.001",
+      "Path coefficient": 0.47,
+      "Observations": 479,
+      "model": "1"
+    },
+    {
+      "Construct from": "Relationship-Contingent Self-Esteem",
+      "Construct Moderator": "None",
+      "Construct to": "Stress",
+      "significance": "<0.001",
+      "Path coefficient": 0.41,
+      "Observations": 479,
+      "model": "2"
+    },
+  {
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Impaired Control over Drinking",
+      "significance": "<0.001",
+      "Path coefficient": 0.27,
+      "Observations": 479,
+      "model": "2"
+    },
+  {
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "<0.05",
+      "Path coefficient": 0.12,
+      "Observations": 479,
+      "model": "2"
+    },
+    {
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Heavy Episodic Drinking",
+      "significance": "<0.05",
+      "Path coefficient": -0.11,
+      "Observations": 479,
+      "model": "2"
+    },
+  {
+      "Construct from": "Impaired Control over Drinking",
+      "Construct Moderator": "None",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "<0.001",
+      "Path coefficient": 0.48,
+      "Observations": 479,
+      "model": "2"
+    },
+    {
+      "Construct from": "Impaired Control over Drinking",
+      "Construct Moderator": "None",
+      "Construct to": "Heavy Episodic Drinking",
+      "significance": "<0.001",
+      "Path coefficient": 0.42,
+      "Observations": 479,
+      "model": "2"
+    },
+    {
+      "Construct from": "Heavy Episodic Drinking",
+      "Construct Moderator": "None",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "<0.001",
+      "Path coefficient": 0.37,
+      "Observations": 479,
+      "model": "2"
+    },
+    {
+      "Construct from": "Relationship-Contingent Self-Esteem",
+      "Construct Moderator": "Stress",
+      "Construct to": "Impaired Control over Drinking",
+      "significance": "",
+      "Path coefficient": 0.079,
+      "Observations": 479,
+      "model": "2"
+    },
+    {
+      "Construct from": "Stress",
+      "Construct Moderator": "Impaired Control over Drinking",
+      "Construct to": "Heavy Episodic Drinking",
+      "significance": "",
+      "Path coefficient": 0.30,
+      "Observations": 479,
+      "model": "2"
+    },
+    {
+      "Construct from": "Stress",
+      "Construct Moderator": "Impaired Control over Drinking",
+      "Construct to": "Alcohol-Related Problems",
+      "significance": "",
+      "Path coefficient": 0.105,
+      "Observations": 479,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.3390/bs13020185"
+}

@@ -1,0 +1,221 @@
+{
+  "constructs": [
+    {
+      "name": "Confirmation",
+      "definition": ""
+    },
+    {
+      "name": "Perceived Usefulness",
+      "definition": ""
+    },
+    {
+      "name": "Satisfaction",
+      "definition": "" 
+    },
+	{
+      "name": "Structural assurance trust",
+      "definition": "" 
+    },
+	{
+      "name": "Platform-based trust",
+      "definition": "" 
+    },
+	{
+      "name": "Physician-based trust",
+      "definition": "" 
+    },
+	{
+      "name": "Privacy concerns",
+      "definition": "" 
+    },
+	{
+      "name": "Continuance Intention",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Confirmation",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Usefulness",
+      "significance": "<0.001",
+      "Path coefficient": 0.617,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Confirmation",
+      "Construct Moderator": "None",
+      "Construct to": "Satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.359,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "None",
+      "Construct to": "Satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.434,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "None",
+      "Construct to": "Structural assurance trust",
+      "significance": "<0.001",
+      "Path coefficient": 0.390,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "None",
+      "Construct to": "Platform-based trust",
+      "significance": "<0.001",
+      "Path coefficient": 0.265,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "None",
+      "Construct to": "Physician-based trust",
+      "significance": "<0.001",
+      "Path coefficient": 0.343,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "None",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.01",
+      "Path coefficient": 0.179,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "None",
+      "Construct to": "Structural assurance trust",
+      "significance": "<0.001",
+      "Path coefficient": 0.314,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "None",
+      "Construct to": "Platform-based trust",
+      "significance": "<0.001",
+      "Path coefficient": 0.364,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "None",
+      "Construct to": "Physician-based trust",
+      "significance": "<0.001",
+      "Path coefficient": 0.326,
+      "Observations": 465,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "Structural assurance trust",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.048,
+      "Observations": 465,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "Platform-based trust",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.034,
+      "Observations": 465,
+      "model": "1"
+    },
+  {
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "Physician-based trust",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.047,
+      "Observations": 465,
+      "model": "1"
+    },
+    {
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "Structural assurance trust",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.039,
+      "Observations": 465,
+      "model": "1"
+    },
+  {
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "Platform-based trust",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.047,
+      "Observations": 465,
+      "model": "1"
+    },
+  {
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "Physician-based trust",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.035,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "None",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.05",
+      "Path coefficient": 0.131,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Structural assurance trust",
+      "Construct Moderator": "Privacy concerns",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.233,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Platform-based trust",
+      "Construct Moderator": "Privacy concerns",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.242,
+      "Observations": 465,
+      "model": "1"
+    },
+	{
+      "Construct from": "Physician-based trust",
+      "Construct Moderator": "Privacy concerns",
+      "Construct to": "Continuance Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.261,
+      "Observations": 465,
+      "model": "1"
+    }
+	
+  ],
+  "source": "https://doi.org/10.3390/healthcare11030374",
+  "information_source": "No information in text; only table and image"
+}

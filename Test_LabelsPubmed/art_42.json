@@ -1,0 +1,90 @@
+{
+  "constructs": [
+    {
+      "name": "Perceived Risk",
+      "definition": ""
+    },
+    {
+      "name": "Problem Recognition",
+      "definition": ""
+    },
+    {
+      "name": "Constraint Recognition",
+      "definition": "" 
+    },
+	{
+      "name": "Involvement Recognition",
+      "definition": "" 
+    },
+	{
+      "name": "Situational Motivation",
+      "definition": "" 
+    },
+	{
+      "name": "Referent Criterion",
+      "definition": "" 
+    },
+	{
+      "name": "Communicant Awareness",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Perceived Risk",
+      "Construct Moderator": "None",
+      "Construct to": "Situational Motivation",
+      "significance": "<0.05",
+      "Path coefficient": 0.099,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Problem Recognition",
+      "Construct Moderator": "None",
+      "Construct to": "Situational Motivation",
+      "significance": "<0.001",
+      "Path coefficient": 0.458,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Constraint Recognition",
+      "Construct Moderator": "None",
+      "Construct to": "Situational Motivation",
+      "significance": "<0.01",
+      "Path coefficient": -0.212,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Involvement Recognition",
+      "Construct Moderator": "None",
+      "Construct to": "Situational Motivation",
+      "significance": "<0.01",
+      "Path coefficient": 0.177,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Situational Motivation",
+      "Construct Moderator": "None",
+      "Construct to": "Communicant Awareness",
+      "significance": "<0.001",
+      "Path coefficient": 0.387,
+      "Observations": 500,
+      "model": "1"
+    },
+	{
+      "Construct from": "Referent Criterion",
+      "Construct Moderator": "None",
+      "Construct to": "Communicant Awareness",
+      "significance": "<0.001",
+      "Path coefficient": 0.452,
+      "Observations": 500,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph20010838",
+  "information_source": "No information in text; only figure and table"
+}

@@ -1,0 +1,210 @@
+{
+  "constructs": [
+    {
+	  "name": "Academic Self-efficacy",
+	  "definition": "" 
+	  },
+	  {
+	  "name": "Academic Stress",
+	  "definition": ""
+	  },
+	  {
+	  "name": "Learning Achievement",
+	  "definition": ""
+	  },
+	  {
+	  "name": "Learning Strategy",
+	  "definition": ""
+	  },
+	  {
+	  "name": "Learning Motivation",
+	  "definition": ""
+	  }
+  ], 
+  "relations": [
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Academic Stress",
+     "significance": "<0.001",
+     "Path coefficient": -0.335,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Motivation",
+     "significance": "<0.001",
+     "Path coefficient": 2.079,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "<0.001",
+     "Path coefficient": 3.510,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Academic Stress",
+     "Construct Moderator": "None",
+     "Construct to": "Learning motivation",
+     "significance": "<0.001",
+     "Path coefficient": -0.470,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Strategy",
+     "significance": "<0.001",
+     "Path coefficient": 0.268,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Academic Stress",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Strategy",
+     "significance": "<0.001",
+     "Path coefficient": -0.209,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Academic Stress",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "<0.001",
+     "Path coefficient": -1.299,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Learning Motivation",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Strategy",
+     "significance": "<0.001",
+     "Path coefficient": 0.119,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Learning Motivation",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "None",
+     "Path coefficient": -0.039,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Learning Strategy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "<0.001",
+     "Path coefficient": 0.897,
+     "Observations": 4051,
+     "model": "Middle school model"
+   },
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Academic Stress",
+     "significance": "<0.001",
+     "Path coefficient": -0.112,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Motivation",
+     "significance": "<0.001",
+     "Path coefficient": 0.598,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Strategy",
+     "significance": "<0.001",
+     "Path coefficient": 0.297,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Academic Self-efficacy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "<0.001",
+     "Path coefficient": 2.688,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Academic Stress",
+     "Construct Moderator": "None",
+     "Construct to": "Learning motivation",
+     "significance": "<0.001",
+     "Path coefficient": -0.319,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Academic Stress",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Strategy",
+     "significance": "<0.001",
+     "Path coefficient": -0.881,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Academic Stress",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "<0.001",
+     "Path coefficient": -7.622,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Learning Motivation",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Strategy",
+     "significance": "<0.001",
+     "Path coefficient": 0.367,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Learning Motivation",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "None",
+     "Path coefficient": 0.221,
+     "Observations": 4242,
+     "model": "High school model"
+   },
+   {
+     "Construct from": "Learning Strategy",
+     "Construct Moderator": "None",
+     "Construct to": "Learning Achievement",
+     "significance": "None",
+     "Path coefficient": -0.263,
+     "Observations": 4242,
+     "model": "High school model"
+   }
+  ],
+  "source": "https://doi.org/10.3390/jintelligence10040081"
+}
+	
+	
+	

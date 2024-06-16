@@ -1,0 +1,24 @@
+#Objective 
+Extract structured information from tables from scholarly article that discuss relationships between constructs using structural equation modeling (SEM). The required information includes names of the constructs involved in the relation, path coefficients (beta values), and significance levels (p-values).
+
+#Definitions
+Constructs/ Latent Variables: Latent variables are unobserved constructs that cannot be directly measured but are inferred from a set of observed variables. They represent abstract concepts such as intelligence, satisfaction, or anxiety.
+Observed Variables: Observed variables, also known as indicators, are measurable variables that are used to estimate the latent variables. They are the data points collected through surveys, experiments, or other methods.
+Path Coefficients: Path coefficients, also known as beta values, are the (standardized) regression weights that represent the strength of the relationship between two variables in a SEM model.
+Construct relation: Construct relation refers to a hypothesized relationship between latent variables (constructs)
+
+#Instructions
+Focus on Relationships: Extract relationships only where the excerpt explicitly provides a relationship between two constructs, including a path coefficient (beta value) and, if provided, a p-value. Only extract relationships that are clearly defined with these components. In cases of unclear or ambiguous information, omit the entry. 
+Ignore General Discussions: Do not extract information from sentences that only discuss SEM components without linking specific constructs or showing explicit relationships. Do not include general methodological descriptions, lists of SEM metrics, or discussions about the properties of constructs unless they are part of a direct relationship involving a beta value.
+Additional information: Do not include additional information such as confidence intervals or t-scores.
+Ignore other measures: Do not extract information related to other commonly reported measures such as Chi-Square Statistic, Degrees of Freedom (df), Root Mean Square Error of Approximation (RMSEA), Comparative Fit Index (CFI), Tucker-Lewis Index (TLI), Goodness-of-Fit Index (GFI), Reliability Coefficients (e.g., Cronbach's Alpha, ...), Average Variance Extracted (AVE), etc.
+Moderators or mediators: If a relationship involves a moderator of mediator, include the moderator's/mediators's name in the output. If no moderator or mediator is mentioned, mark it as None. If there is more than one moderator/mediator in one relation, ignore this relation.
+
+#Task
+Take the unformatted table and format it in a way you can work with. Then extract all construct relations from this table. If the table does not contain information about construct relations *and* the corresponding beta values, output an empty list. 
+
+#Output Format 
+Provide a list of lists. Each inner list should contain two construct names, the moderator (if any), the beta coefficient, and the p-value. If the moderator/mediator, beta value or p-value is not mentioned, mark it as None. The inner lists should be structured as follows: construct_from, moderator/mediator, construct_to, beta value, p-value. Strictly follow this order. 
+
+#Inference
+Please extract the construct relations (closely following the desired output format!) from the following table (indicated by three tickmarks):

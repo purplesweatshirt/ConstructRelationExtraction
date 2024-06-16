@@ -1,0 +1,147 @@
+{
+  "constructs": [
+    {
+      "name": "Subjective Support",
+      "definition": ""
+    },
+    {
+      "name": "Objective Support",
+      "definition": ""
+    },
+    {
+      "name": "Utilization of Support",
+      "definition": "" 
+    },
+	{
+      "name": "Social Support",
+      "definition": "" 
+    },
+	{
+      "name": "Loneliness",
+      "definition": "" 
+    },
+	{
+      "name": "Anxiety",
+      "definition": "" 
+    },
+	{
+      "name": "Depression",
+      "definition": "" 
+    },
+	{
+      "name": "Health related quality of life",
+      "definition": "" 
+    },
+	{
+      "name": "Mental Health",
+      "definition": "" 
+    },
+	{
+      "name": "Physical Health",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Perceived Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Loneliness",
+      "significance": "<0.001",
+      "Path coefficient": -0.68,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Health related quality of life",
+      "significance": "<0.01",
+      "Path coefficient": 0.33,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "Anxiety",
+      "significance": "<0.001",
+      "Path coefficient": 0.53,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.001",
+      "Path coefficient": 0.27,
+      "Observations": 201,
+      "model": "1"
+    },
+    {
+      "Construct from": "Loneliness",
+      "Construct Moderator": "None",
+      "Construct to": "Health related quality of life",
+      "significance": "<0.001",
+      "Path coefficient": -0.40,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Anxiety",
+      "Construct Moderator": "None",
+      "Construct to": "Health related quality of life",
+      "significance": "<0.001",
+      "Path coefficient": -0.51,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Anxiety",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.001",
+      "Path coefficient": 0.60,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Depression",
+      "Construct Moderator": "None",
+      "Construct to": "Health related quality of life",
+      "significance": ">0.1",
+      "Path coefficient": 0.02,
+      "Observations": 201,
+      "model": "1"
+    },
+    {
+      "Construct from": "Depression",
+      "Construct Moderator": "None",
+      "Construct to": "Anxiety",
+      "significance": ">0.1",
+      "Path coefficient": 0.05,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health related quality of life",
+      "Construct Moderator": "None",
+      "Construct to": "Mental Health",
+      "significance": "<0.001",
+      "Path coefficient": 0.91,
+      "Observations": 201,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health related quality of life",
+      "Construct Moderator": "None",
+      "Construct to": "Physical Health",
+      "significance": "<0.001",
+      "Path coefficient": 0.73,
+      "Observations": 201,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpubh.2022.1067870",
+  "information_source": "3 PC nur im Bild"
+}

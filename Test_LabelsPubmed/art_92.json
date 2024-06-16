@@ -1,0 +1,81 @@
+{
+  "constructs": [
+    {
+      "name": "Post-traumatic stress disorder",
+      "definition": ""
+    },
+	{
+      "name": "Fear of missing out",
+      "definition": "" 
+    },
+	{
+      "name": "Fake news belief",
+      "definition": "" 
+    },
+	{
+      "name": "Age",
+      "definition": "" 
+    },
+	{
+      "name": "Gender",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Post-traumatic stress disorder",
+      "Construct Moderator": "None",
+      "Construct to": "Fear of missing out",
+      "significance": "<0.001",
+      "Path coefficient": 0.347,
+      "Observations": 356,
+      "model": "1"
+    },
+	{
+      "Construct from": "Post-traumatic stress disorder",
+      "Construct Moderator": "None",
+      "Construct to": "Fake news belief",
+      "significance": "<0.001",
+      "Path coefficient": 0.444,
+      "Observations": 356,
+      "model": "1"
+    },
+	{
+      "Construct from": "Post-traumatic stress disorder",
+      "Construct Moderator": "Age",
+      "Construct to": "Fake news belief",
+      "significance": "<0.01",
+      "Path coefficient": 0.148,
+      "Observations": 356,
+      "model": "1"
+    },
+	{
+      "Construct from": "Fear of missing out",
+      "Construct Moderator": "None",
+      "Construct to": "Fake news belief",
+      "significance": "<0.001",
+      "Path coefficient": 0.373,
+      "Observations": 356,
+      "model": "1"
+    },
+	{
+      "Construct from": "Fear of missing out",
+      "Construct Moderator": "Age",
+      "Construct to": "Fake news belief",
+      "significance": "<0.01",
+      "Path coefficient": 0.145,
+      "Observations": 356,
+      "model": "1"
+    },
+	{
+      "Construct from": "Fear of missing out",
+      "Construct Moderator": "Gender",
+      "Construct to": "Fake news belief",
+      "significance": "<0.001",
+      "Path coefficient": 0.281,
+      "Observations": 356,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12889-023-17151-z"
+}

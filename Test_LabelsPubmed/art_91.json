@@ -1,0 +1,378 @@
+{
+  "constructs": [
+    {
+      "name": "pH",
+      "definition": ""
+    },
+	{
+      "name": "TOC",
+      "definition": ""
+    },
+	{
+      "name": "Labile P",
+      "definition": "" 
+    },
+	{
+      "name": "Moderately labile P",
+      "definition": "" 
+    },
+	{
+      "name": "Sparingly labile P",
+      "definition": "" 
+    },
+	{
+      "name": "Non-labile P",
+      "definition": "" 
+    },
+	{
+      "name": "Olsen-P",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": ">0.05",
+      "Path coefficient": 0.07,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Moderately labile P",
+      "significance": "<0.01",
+      "Path coefficient": 0.97,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Sparingly labile P",
+      "significance": ">0.05",
+      "Path coefficient": -0.69,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Non-labile P",
+      "significance": "<0.05",
+      "Path coefficient": -0.28,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "TOC",
+      "significance": "<0.001",
+      "Path coefficient": 0.75,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": ">0.05",
+      "Path coefficient": -0.15,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Moderately labile P",
+      "significance": ">0.05",
+      "Path coefficient": -0.58,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Sparingly labile P",
+      "significance": ">0.05",
+      "Path coefficient": 0.33,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Non-labile P",
+      "significance": ">0.05",
+      "Path coefficient": 0.29,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": "<0.001",
+      "Path coefficient": 0.97,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Moderately labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": 0.03,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Sparingly labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": 0.06,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Non-labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": -0.09,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Moderately labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": ">0.05",
+      "Path coefficient": 0.29,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Sparingly labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Moderately labile P",
+      "significance": ">0.05",
+      "Path coefficient": -0.08,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Non-labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Sparingly labile P",
+      "significance": ">0.05",
+      "Path coefficient": -0.41,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Olsen-P",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": ">0.05",
+      "Path coefficient": -0.34,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": -0.10,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": -0.04,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": "<0.001",
+      "Path coefficient": 2.23,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Moderately labile P",
+      "significance": "<0.01",
+      "Path coefficient": -2.28,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Sparingly labile P",
+      "significance": "<0.001",
+      "Path coefficient": -2.54,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Non-labile P",
+      "significance": ">0.05",
+      "Path coefficient": 1.29,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "TOC",
+      "significance": "<0.001",
+      "Path coefficient": 0.96,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": "<0.001",
+      "Path coefficient": -2.20,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Moderately labile P",
+      "significance": "<0.001",
+      "Path coefficient": 3.02,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Sparingly labile P",
+      "significance": "<0.001",
+      "Path coefficient": 2.56,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Non-labile P",
+      "significance": "<0.01",
+      "Path coefficient": -1.83,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": "<0.001",
+      "Path coefficient": 0.83,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Moderately labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": 0.13,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Sparingly labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": -0.11,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Non-labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": -0.21,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Moderately labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": ">0.05",
+      "Path coefficient": 0.03,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Sparingly labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Moderately labile P",
+      "significance": "<0.001",
+      "Path coefficient": -0.83,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Non-labile P",
+      "Construct Moderator": "None",
+      "Construct to": "Sparingly labile P",
+      "significance": ">0.05",
+      "Path coefficient": -0.21,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "Olsen-P",
+      "Construct Moderator": "None",
+      "Construct to": "Labile P",
+      "significance": ">0.05",
+      "Path coefficient": 0.64,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": 0.59,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "TOC",
+      "Construct Moderator": "None",
+      "Construct to": "Olsen-P",
+      "significance": ">0.05",
+      "Path coefficient": -0.99,
+      "Observations": null,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.1038/s41598-023-31908-x",
+  "information_source": "only a fraction of path coefficients in the text"
+}

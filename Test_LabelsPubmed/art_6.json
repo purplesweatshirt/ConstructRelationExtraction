@@ -1,0 +1,57 @@
+{
+  "constructs": [
+    {
+      "name": "Emotional maltreatment",
+      "definition": ""
+    },
+    {
+      "name": "Personality organization",
+      "definition": ""
+    },
+    {
+      "name": "RFQ-Confusion",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Emotional maltreatment",
+      "Construct Moderator": "None",
+      "Construct to": "Personality organization",
+      "significance": "<0.01",
+      "Path coefficient": 0.343,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "Emotional maltreatment",
+      "Construct Moderator": "None",
+      "Construct to": "RFQ-Confusion",
+      "significance": "<0.05",
+      "Path coefficient": 0.570,
+      "Observations": 193,
+      "model": "1"
+    },
+	{
+      "Construct from": "RFQ-Confusion",
+      "Construct Moderator": "None",
+      "Construct to": "Personality organization",
+      "significance": "<0.01",
+      "Path coefficient": 0.645,
+      "Observations": 193,
+      "model": "1"
+    },
+    {
+      "Construct from": "Emotional maltreatment",
+      "Construct Moderator": "RFQ-Confusion",
+      "Construct to": "Personality organization",
+      "significance": "<0.001",
+      "Path coefficient": 11.679,
+      "Observations": 193,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyt.2023.1302137",
+  "information_source": "Different names in Figure"
+}
+

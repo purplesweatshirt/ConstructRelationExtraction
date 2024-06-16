@@ -1,0 +1,94 @@
+{
+  "constructs": [
+    {
+      "name": "Family Support",
+      "definition": ""
+    },
+    {
+      "name": "Education Support",
+      "definition": ""
+    },
+    {
+      "name": "Policy Support",
+      "definition": "" 
+    },
+	{
+      "name": "Social Support",
+      "definition": "" 
+    },
+	{
+      "name": "Personality Traits",
+      "definition": "" 
+    },
+	{
+      "name": "Entrepreneurial Intention",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Personality Traits",
+      "significance": "<0.01",
+      "Path coefficient": 0.258,
+      "Observations": 436,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family Support",
+      "Construct Moderator": "None",
+      "Construct to": "Personality Traits",
+      "significance": "<0.01",
+      "Path coefficient": 0.226,
+      "Observations": 436,
+      "model": "1"
+    },
+	{
+      "Construct from": "Education Support",
+      "Construct Moderator": "None",
+      "Construct to": "Personality Traits",
+      "significance": "<0.01",
+      "Path coefficient": -0.145,
+      "Observations": 436,
+      "model": "1"
+    },
+	{
+      "Construct from": "Policy Support",
+      "Construct Moderator": "None",
+      "Construct to": "Personality Traits",
+      "significance": "<0.001",
+      "Path coefficient": 0.310,
+      "Observations": 436,
+      "model": "1"
+    },
+	{
+      "Construct from": "Personality Traits",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.954,
+      "Observations": 436,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family Support",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Intention",
+      "significance": ">0.05",
+      "Path coefficient": 0.056,
+      "Observations": 436,
+      "model": "1"
+    },
+	{
+      "Construct from": "Education Support",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Intention",
+      "significance": ">0.05",
+      "Path coefficient": 0.044,
+      "Observations": 436,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2022.972992"
+}

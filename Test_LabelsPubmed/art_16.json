@@ -1,0 +1,122 @@
+{
+  "constructs": [
+    {
+      "name": "Family Support",
+      "definition": ""
+    },
+    {
+      "name": "Teacher Support",
+      "definition": ""
+    },
+    {
+      "name": "Friend Support",
+      "definition": "" 
+    },
+	{
+      "name": "Fellow Students",
+      "definition": "" 
+    },
+	{
+      "name": "Self-Directed Learning",
+      "definition": "" 
+    },
+	{
+      "name": "University",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Family Support",
+      "Construct Moderator": "None",
+      "Construct to": "Fellow Students",
+      "significance": "<0.01",
+      "Path coefficient": 0.35,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family Support",
+      "Construct Moderator": "None",
+      "Construct to": "Self-Directed Learning",
+      "significance": ">0.05",
+      "Path coefficient": 0.09,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Teacher Support",
+      "Construct Moderator": "None",
+      "Construct to": "Fellow Students",
+      "significance": "<0.01",
+      "Path coefficient": 0.20,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Teacher Support",
+      "Construct Moderator": "None",
+      "Construct to": "University",
+      "significance": "<0.01",
+      "Path coefficient": 0.61,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Teacher Support",
+      "Construct Moderator": "None",
+      "Construct to": "Self-Directed Learning",
+      "significance": "<0.01",
+      "Path coefficient": 0.18,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Friend Support",
+      "Construct Moderator": "None",
+      "Construct to": "Fellow Students",
+      "significance": "<0.01",
+      "Path coefficient": 0.33,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Friend Support",
+      "Construct Moderator": "None",
+      "Construct to": "University",
+      "significance": "<0.01",
+      "Path coefficient": 0.13,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Friend Support",
+      "Construct Moderator": "None",
+      "Construct to": "Self-Directed Learning",
+      "significance": ">0.05",
+      "Path coefficient": 0.05,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "Fellow Students",
+      "Construct Moderator": "None",
+      "Construct to": "Self-Directed Learning",
+      "significance": "<0.01",
+      "Path coefficient": 0.63,
+      "Observations": 468,
+      "model": "1"
+    },
+	{
+      "Construct from": "University",
+      "Construct Moderator": "None",
+      "Construct to": "Self-Directed Learning",
+      "significance": ">0.05",
+      "Path coefficient": 0.01,
+      "Observations": 468,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2023.1211594",
+  "information_source": "Only correlations, Sometimes two values for one relation"
+}

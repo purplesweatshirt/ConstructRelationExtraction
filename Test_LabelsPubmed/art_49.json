@@ -1,0 +1,77 @@
+{
+  "constructs": [
+    {
+      "name": "Self-Efficacy",
+      "definition": ""
+    },
+	{
+      "name": "Irrational Beliefs",
+      "definition": "" 
+    },
+	{
+      "name": "Burnout",
+      "definition": "" 
+    },
+	{
+      "name": "Innovative Work Behavior",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Self-Efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Irrational Beliefs",
+      "significance": "<0.001",
+      "Path coefficient": -0.209,
+      "Observations": 964,
+      "model": "1"
+    },
+	{
+      "Construct from": "Self-Efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Innovative Work Behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.833,
+      "Observations": 964,
+      "model": "1"
+    },
+    {
+      "Construct from": "Self-Efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Burnout",
+      "significance": "<0.001",
+      "Path coefficient": -0.303,
+      "Observations": 964,
+      "model": "1"
+    },
+	{
+      "Construct from": "Irrational Beliefs",
+      "Construct Moderator": "None",
+      "Construct to": "Burnout",
+      "significance": "<0.001",
+      "Path coefficient": 0.912,
+      "Observations": 964,
+      "model": "1"
+    },
+	{
+      "Construct from": "Irrational Beliefs",
+      "Construct Moderator": "None",
+      "Construct to": "Innovative Work Behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.192,
+      "Observations": 964,
+      "model": "1"
+    },
+	{
+      "Construct from": "Burnout",
+      "Construct Moderator": "None",
+      "Construct to": "Innovative Work Behavior",
+      "significance": "<0.001",
+      "Path coefficient": -0.21,
+      "Observations": 964,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ejihpe13020030"
+}

@@ -1,0 +1,63 @@
+{
+  "constructs": [
+    {
+      "name": "Perceived Behavior Control (PBC)",
+      "definition": ""
+    },
+	{
+      "name": "Attitude toward the Behavior (AB)",
+      "definition": "" 
+    },
+	{
+      "name": "Subject Norm (SN)",
+      "definition": "" 
+    },
+	{
+      "name": "Financing intentions(FN)",
+      "definition": "" 
+    },
+	{
+      "name": "Financing behavior (FB)",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Perceived Behavior Control (PBC)",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude",
+      "significance": "<0.001",
+      "Path coefficient": 0.28,
+      "Observations": 275,
+      "model": "1"
+    },
+	{
+      "Construct from": "Attitude toward the Behavior (AB)",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge",
+      "significance": "<0.001",
+      "Path coefficient": 0.32,
+      "Observations": 275,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subject Norm (SN)",
+      "Construct Moderator": "None",
+      "Construct to": "Practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.26,
+      "Observations": 275,
+      "model": "1"
+    },
+	{
+      "Construct from": "Financing intentions(FN)",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude",
+      "significance": "<0.001",
+      "Path coefficient": 0.39,
+      "Observations": 275,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2022.820575"
+}

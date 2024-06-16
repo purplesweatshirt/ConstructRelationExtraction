@@ -1,0 +1,95 @@
+{
+  "constructs": [
+    {
+      "name": "Physical Exercise",
+      "definition": ""
+    },
+	{
+      "name": "Social-emotional Competency",
+      "definition": "" 
+    },
+	{
+      "name": "Self-esteem",
+      "definition": "" 
+    },
+	{
+      "name": "Social Adaptability",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Social Adaptability",
+      "significance": "<0.001",
+      "Path coefficient": 0.397,
+      "Observations": 1230,
+      "model": "1"
+    },
+	{
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Social-emotional Competency",
+      "significance": "<0.001",
+      "Path coefficient": 0.399,
+      "Observations": 1230,
+      "model": "1"
+    },
+	{
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "None",
+      "Construct to": "Self-esteem",
+      "significance": "<0.001",
+      "Path coefficient": 0.305,
+      "Observations": 1230,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social-emotional Competency",
+      "Construct Moderator": "None",
+      "Construct to": "Social Adaptability",
+      "significance": "<0.001",
+      "Path coefficient": 0.169,
+      "Observations": 1230,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social-emotional Competency",
+      "Construct Moderator": "None",
+      "Construct to": "Self-esteem",
+      "significance": "<0.001",
+      "Path coefficient": 0.130,
+      "Observations": 1230,
+      "model": "2"
+    },
+	{
+      "Construct from": "Self-esteem",
+      "Construct Moderator": "None",
+      "Construct to": "Social Adaptability",
+      "significance": "<0.001",
+      "Path coefficient": 0.189,
+      "Observations": 1230,
+      "model": "2"
+    },
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "Social-emotional Competency",
+      "Construct to": "Social Adaptability",
+      "significance": "",
+      "Path coefficient": 0.068,
+      "Observations": 1230,
+      "model": "2"
+    },
+    {
+      "Construct from": "Physical Exercise",
+      "Construct Moderator": "Self-esteem",
+      "Construct to": "Social-emotional Competency",
+      "significance": "",
+      "Path coefficient": 0.059,
+      "Observations": 1230,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2023.1120925"
+}

@@ -1,0 +1,77 @@
+{
+  "constructs": [
+    {
+      "name": "Educational environment",
+      "definition": ""
+    },
+	{
+      "name": "Attitude",
+      "definition": "" 
+    },
+	{
+      "name": "Knowledge",
+      "definition": "" 
+    },
+	{
+      "name": "Practice",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Educational environment",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude",
+      "significance": "<0.001",
+      "Path coefficient": 0.143,
+      "Observations": 139832,
+      "model": "1"
+    },
+	{
+      "Construct from": "Educational environment",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge",
+      "significance": "<0.001",
+      "Path coefficient": 0.235,
+      "Observations": 139832,
+      "model": "1"
+    },
+	{
+      "Construct from": "Attitude",
+      "Construct Moderator": "None",
+      "Construct to": "Practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.565,
+      "Observations": 139832,
+      "model": "1"
+    },
+	{
+      "Construct from": "Knowledge",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude",
+      "significance": "<0.001",
+      "Path coefficient": 0.225,
+      "Observations": 139832,
+      "model": "1"
+    },
+	{
+      "Construct from": "Knowledge",
+      "Construct Moderator": "None",
+      "Construct to": "Practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.054,
+      "Observations": 139832,
+      "model": "1"
+    },
+  {
+      "Construct from": "Knowledge",
+      "Construct Moderator": "Attitude",
+      "Construct to": "Practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.127,
+      "Observations": 139832,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/nu16010167"
+}

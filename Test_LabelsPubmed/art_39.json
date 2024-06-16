@@ -1,0 +1,112 @@
+{
+  "constructs": [
+    {
+      "name": "Perceived quality",
+      "definition": ""
+    },
+    {
+      "name": "Perceived value",
+      "definition": ""
+    },
+    {
+      "name": "Satisfaction",
+      "definition": "" 
+    },
+	{
+      "name": "Loyalty",
+      "definition": "" 
+    },
+	{
+      "name": "Cognitive image",
+      "definition": "" 
+    },
+	{
+      "name": "slow-moving facilities",
+      "definition": "" 
+    },
+	{
+      "name": "landscape points",
+      "definition": "" 
+    },
+	{
+      "name": "Cultural service",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Perceived quality",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived value",
+      "significance": "<0.01",
+      "Path coefficient": 0.36,
+      "Observations": 417,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived quality",
+      "Construct Moderator": "None",
+      "Construct to": "slow-moving facilities",
+      "significance": "None",
+      "Path coefficient": 1.00,
+      "Observations": 417,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived quality",
+      "Construct Moderator": "None",
+      "Construct to": "landscape points",
+      "significance": "None",
+      "Path coefficient": 0.99,
+      "Observations": 417,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived quality",
+      "Construct Moderator": "None",
+      "Construct to": "Cultural service",
+      "significance": "None",
+      "Path coefficient": 1.01,
+      "Observations": 417,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived quality",
+      "Construct Moderator": "None",
+      "Construct to": "Cognitive image",
+      "significance": "<0.001",
+      "Path coefficient": 0.98,
+      "Observations": 417,
+      "model": "1"
+    },
+	{
+      "Construct from": "Cognitive image",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived value",
+      "significance": "<0.001",
+      "Path coefficient": 0.65,
+      "Observations": 417,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived value",
+      "Construct Moderator": "None",
+      "Construct to": "Satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.98,
+      "Observations": 417,
+      "model": "1"
+    },
+	{
+      "Construct from": "Satisfaction",
+      "Construct Moderator": "None",
+      "Construct to": "Loyalty",
+      "significance": "<0.001",
+      "Path coefficient": 0.96,
+      "Observations": 417,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph20032540",
+  "information_source": "Cultural services, landscape points and slow-moving facilities not mentioned."
+}

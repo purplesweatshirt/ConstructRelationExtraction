@@ -1,0 +1,107 @@
+{
+  "constructs": [
+    {
+      "name": "Personality Traits",
+      "definition": ""
+    },
+    {
+      "name": "Motivation and Commitment",
+      "definition": ""
+    },
+    {
+      "name": "Availability of Financial Resources",
+      "definition": "" 
+    },
+	{
+      "name": "Government Support",
+      "definition": "" 
+    },
+	{
+      "name": "Entrepreneurial Success",
+      "definition": "" 
+    },
+	{
+      "name": "Age",
+      "definition": "" 
+    },
+	{
+      "name": "Business Type",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Personality Traits",
+      "Construct Moderator": "None",
+      "Construct to": "Motivation and Commitment",
+      "significance": "<0.001",
+      "Path coefficient": 0.577,
+      "Observations": 193,
+      "model": "255"
+    },
+	{
+      "Construct from": "Personality Traits",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Success",
+      "significance": "<0.001",
+      "Path coefficient": 0.281,
+      "Observations": 193,
+      "model": "255"
+    },
+	{
+      "Construct from": "Motivation and Commitment",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Success",
+      "significance": "<0.001",
+      "Path coefficient": 0.236,
+      "Observations": 193,
+      "model": "255"
+    },
+	{
+      "Construct from": "Availability of Financial Resources",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Success",
+      "significance": "<0.001",
+      "Path coefficient": 0.280,
+      "Observations": 193,
+      "model": "255"
+    },
+	{
+      "Construct from": "Government Support",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Success",
+      "significance": "<0.01",
+      "Path coefficient": 0.17,
+      "Observations": 193,
+      "model": "255"
+    },
+	{
+      "Construct from": "Age",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Success",
+      "significance": ">0.1",
+      "Path coefficient": -0.027,
+      "Observations": 193,
+      "model": "255"
+    },
+	{
+      "Construct from": "Business Type",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Success",
+      "significance": ">0.1",
+      "Path coefficient": 0.015,
+      "Observations": 193,
+      "model": "255"
+    },
+    {
+      "Construct from": "Personality Traits",
+      "Construct Moderator": "Motivation and Commitment",
+      "Construct to": "Entrepreneurial Success",
+      "significance": "<0.001",
+      "Path coefficient": 0.246,
+      "Observations": 193,
+      "model": "255"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2022.1099760"
+}

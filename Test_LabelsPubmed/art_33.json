@@ -1,0 +1,112 @@
+{
+  "constructs": [
+    {
+      "name": "Performance Expectancy",
+      "definition": ""
+    },
+    {
+      "name": "Effort Expectancy",
+      "definition": ""
+    },
+    {
+      "name": "Social Influence",
+      "definition": "" 
+    },
+	{
+      "name": "Behavioral Intentions",
+      "definition": "" 
+    },
+	{
+      "name": "Facilitating conditions",
+      "definition": "" 
+    },
+	{
+      "name": "Use behavior",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived cost",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived risk",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Performance Expectancy",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.28,
+      "Observations": 386,
+      "model": "1"
+    },
+	{
+      "Construct from": "Effort Expectancy",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.27,
+      "Observations": 386,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Impact",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intentions",
+      "significance": "<0.001",
+      "Path coefficient": 0.20,
+      "Observations": 386,
+      "model": "1"
+    },
+	{
+      "Construct from": "Facilitating conditions",
+      "Construct Moderator": "None",
+      "Construct to": "Use behavior",
+      "significance": ">0.1",
+      "Path coefficient": 0.018,
+      "Observations": 386,
+      "model": "1"
+    },
+	{
+      "Construct from": "Behavioral Intentions",
+      "Construct Moderator": "None",
+      "Construct to": "Use behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.86,
+      "Observations": 386,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived cost",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intentions",
+      "significance": "<0.001",
+      "Path coefficient": -0.25,
+      "Observations": 386,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived risk",
+      "Construct Moderator": "None",
+      "Construct to": "Behavioral Intentions",
+      "significance": "<0.05",
+      "Path coefficient": -0.15,
+      "Observations": 386,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived risk",
+      "Construct Moderator": "None",
+      "Construct to": "Use behavior",
+      "significance": ">0.1",
+      "Path coefficient": 0.10,
+      "Observations": 386,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/bs13030277",
+  "information_source": "They only talk about correlations"
+}

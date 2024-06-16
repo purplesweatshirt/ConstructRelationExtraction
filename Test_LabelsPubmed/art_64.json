@@ -1,0 +1,152 @@
+{
+  "constructs": [
+    {
+      "name": "Risks",
+      "definition": ""
+    },
+	{
+      "name": "Reactions",
+      "definition": "" 
+    },
+	{
+      "name": "Costs",
+      "definition": "" 
+    },
+	{
+      "name": "Pain",
+      "definition": "" 
+    },
+	{
+      "name": "Inconvenience",
+      "definition": "" 
+    },
+	{
+      "name": "Forget",
+      "definition": "" 
+    },
+	{
+      "name": "Healthy",
+      "definition": "" 
+    },
+	{
+      "name": "Access",
+      "definition": "" 
+    },
+	{
+      "name": "Flu vaccine willingness",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Health Risks",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": "<0.001",
+      "Path coefficient": -0.20,
+      "Observations": 374,
+      "model": "1"
+    },
+	{
+      "Construct from": "Costs",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": ">0.1",
+      "Path coefficient": -0.04,
+      "Observations": 374,
+      "model": "1"
+    },
+	{
+      "Construct from": "Reactions",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": ">0.1",
+      "Path coefficient": -0.04,
+      "Observations": 374,
+      "model": "1"
+    },
+	{
+      "Construct from": "Access",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": "<0.05",
+      "Path coefficient": -0.11,
+      "Observations": 374,
+      "model": "1"
+    },
+	{
+      "Construct from": "Inconvenience",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": ">0.1",
+      "Path coefficient": -0.04,
+      "Observations": 374,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health condition",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": "<0.001",
+      "Path coefficient": -0.34,
+      "Observations": 374,
+      "model": "1"
+    },
+	{
+      "Construct from": "Forget",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": "<0.1",
+      "Path coefficient": -0.05,
+      "Observations": 374,
+      "model": "1"
+    },
+	{
+      "Construct from": "Pain",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": "<0.1",
+      "Path coefficient": -0.01,
+      "Observations": 374,
+      "model": "1"
+    },
+    {
+      "Construct from": "Healthy",
+      "Construct Moderator": "None",
+      "Construct to": "Anti-Covid-19 vaccine willingness",
+      "significance": "<0.001",
+      "Path coefficient": -0.26,
+      "Observations": 374,
+      "model": "1"
+    },
+  {
+      "Construct from": "Costs",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": ">0.1",
+      "Path coefficient": -0.04,
+      "Observations": 374,
+      "model": "1"
+    },
+  {
+      "Construct from": "Reactions",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": "<0.05",
+      "Path coefficient": -0.12,
+      "Observations": 374,
+      "model": "1"
+    },
+  {
+      "Construct from": "Access",
+      "Construct Moderator": "None",
+      "Construct to": "Flu vaccine willingness",
+      "significance": "<0.05",
+      "Path coefficient": -0.09,
+      "Observations": 374,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/vaccines10101755",
+  "information_source": "Only significant paths in text"
+}

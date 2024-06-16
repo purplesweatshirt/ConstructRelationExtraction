@@ -1,0 +1,100 @@
+{
+  "constructs": [
+    {
+      "name": "Fear of Missing Out State",
+      "definition": ""
+    },
+	{
+      "name": "Fear of Missing Out Trait",
+      "definition": "" 
+    },
+	{
+      "name": "Social Networking Sites - Addiction Test",
+      "definition": "" 
+    },
+	{
+      "name": "Presence",
+      "definition": "" 
+    },
+	{
+      "name": "Search",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Fear of Missing Out State",
+      "Construct Moderator": "None",
+      "Construct to": "Social Networking Sites - Addiction Test",
+      "significance": "<0.05",
+      "Path coefficient": 0.53,
+      "Observations": 955,
+      "model": "1"
+    },
+	{
+      "Construct from": "Fear of Missing Out Trait",
+      "Construct Moderator": "None",
+      "Construct to": "Social Networking Sites - Addiction Test",
+      "significance": "<0.05",
+      "Path coefficient": 0.41,
+      "Observations": 955,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Networking Sites - Addiction Test",
+      "Construct Moderator": "None",
+      "Construct to": "Presence",
+      "significance": "<0.05",
+      "Path coefficient": -0.16,
+      "Observations": 955,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Networking Sites - Addiction Test",
+      "Construct Moderator": "None",
+      "Construct to": "Search",
+      "significance": "<0.05",
+      "Path coefficient": 0.54,
+      "Observations": 955,
+      "model": "1"
+    },
+    {
+      "Construct from": "Fear of Missing Out Trait",
+      "Construct Moderator": "Social Networking Sites - Addiction Test",
+      "Construct to": "Search",
+      "significance": "<0.001",
+      "Path coefficient": 0.22,
+      "Observations": 955,
+      "model": "1"
+    },
+    {
+      "Construct from": "Fear of Missing Out Trait",
+      "Construct Moderator": "Social Networking Sites - Addiction Test",
+      "Construct to": "Presence",
+      "significance": "<0.001",
+      "Path coefficient": -0.07,
+      "Observations": 955,
+      "model": "1"
+    },
+    {
+      "Construct from": "Fear of Missing Out State",
+      "Construct Moderator": "Social Networking Sites - Addiction Test",
+      "Construct to": "Search",
+      "significance": "<0.001",
+      "Path coefficient": 0.29,
+      "Observations": 955,
+      "model": "1"
+    },
+    {
+      "Construct from": "Fear of Missing Out State",
+      "Construct Moderator": "Social Networking Sites - Addiction Test",
+      "Construct to": "Presence",
+      "significance": "<0.001",
+      "Path coefficient": -0.09,
+      "Observations": 955,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s40359-023-01342-9",
+  "information_source": "Ony mediating in text; rest image only"
+}

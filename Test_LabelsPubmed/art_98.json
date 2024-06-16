@@ -1,0 +1,90 @@
+{
+  "constructs": [
+    {
+      "name": "Pension Level",
+      "definition": ""
+    },
+	{
+      "name": "Subjective Well-being",
+      "definition": "" 
+    },
+	{
+      "name": "Preference for Home-based Care",
+      "definition": "" 
+    },
+	{
+      "name": "Preference for Community Care",
+      "definition": "" 
+    },
+	{
+      "name": "Preference for Institutional Care",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Pension Level",
+      "Construct Moderator": "None",
+      "Construct to": "Subjective Well-being",
+      "significance": "<0.001",
+      "Path coefficient": 0.0989,
+      "Observations": 4442,
+      "model": "1"
+    },
+	{
+      "Construct from": "Pension Level",
+      "Construct Moderator": "None",
+      "Construct to": "Preference for Home-based Care",
+      "significance": "<0.001",
+      "Path coefficient": -0.0035,
+      "Observations": 4442,
+      "model": "1"
+    },
+	{
+      "Construct from": "Pension Level",
+      "Construct Moderator": "None",
+      "Construct to": "Preference for Community Care",
+      "significance": "<0.01",
+      "Path coefficient": 0.0018,
+      "Observations": 4442,
+      "model": "1"
+    },
+	{
+      "Construct from": "Pension Level",
+      "Construct Moderator": "None",
+      "Construct to": "Preference for Institutional Care",
+      "significance": "<0.001",
+      "Path coefficient": 0.0068,
+      "Observations": 4442,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Well-being",
+      "Construct Moderator": "None",
+      "Construct to": "Preference for Home-based Care",
+      "significance": "<0.01",
+      "Path coefficient": -0.0029,
+      "Observations": 4442,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Well-being",
+      "Construct Moderator": "None",
+      "Construct to": "Preference for Community Care",
+      "significance": "<0.01",
+      "Path coefficient": 0.0009,
+      "Observations": 4442,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Well-being",
+      "Construct Moderator": "None",
+      "Construct to": "Preference for Home-based Care",
+      "significance": ">0.1",
+      "Path coefficient": -0.0019,
+      "Observations": 4442,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpubh.2023.1104556"
+}

@@ -1,0 +1,393 @@
+{
+  "constructs": [
+    {
+      "name": "organic phosphorus",
+      "definition": ""
+    },
+	{
+      "name": "total phosphorus",
+      "definition": ""
+    },
+    {
+      "name": "inorganic phosphorus",
+      "definition": ""
+    },
+	{
+      "name": "available phosphorus",
+      "definition": "" 
+    },
+	{
+      "name": "total nitrogen",
+      "definition": "" 
+    },
+	{
+      "name": "alkaline dissolved nitrogen",
+      "definition": "" 
+    },
+	{
+      "name": "available potassium",
+      "definition": "" 
+    },
+	{
+      "name": "soil organic carbon",
+      "definition": "" 
+    },
+	{
+      "name": "alkaline phosphatase activity",
+      "definition": "" 
+    },
+	{
+      "name": "pH",
+      "definition": "" 
+    },
+	{
+      "name": "soil organic carbon to total phosphorus ratio",
+      "definition": "" 
+    },
+	{
+      "name": "phoD community diversity",
+      "definition": "" 
+    },
+	{
+      "name": "phoD community richness",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "total phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "inorganic phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.709,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "total phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "available phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.566,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "total phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "organic phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.599,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "inorganic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "available phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.450,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "inorganic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "organic phosphorus",
+      "significance": "None",
+      "Path coefficient": -0.648,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "inorganic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": -0.347,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "available phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community diversity",
+      "significance": "None",
+      "Path coefficient": -0.354,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "available phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": -0.371,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "organic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 0.501,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "organic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": -0.418,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "organic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community diversity",
+      "significance": "None",
+      "Path coefficient": -0.332,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "phoD community diversity",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": -0.767,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "phoD community richness",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 1.162,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "total nitrogen",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community diversity",
+      "significance": "None",
+      "Path coefficient": -0.550,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "total nitrogen",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": -0.415,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "total nitrogen",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": -0.226,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": -0.491,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": 0.264,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "soil organic carbon",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 0.384,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "soil organic carbon",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community diversity",
+      "significance": "None",
+      "Path coefficient": 0.264,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "total phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "inorganic phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.441,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "total phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "available phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.463,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "inorganic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "available phosphorus",
+      "significance": "None",
+      "Path coefficient": 0.361,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "inorganic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 0.360,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "inorganic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": -0.347,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "available phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community diversity",
+      "significance": "None",
+      "Path coefficient": 0.278,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "available phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 0.280,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "available phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": 0.544,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "organic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "inorganic phosphorus",
+      "significance": "None",
+      "Path coefficient": -0.586,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "organic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "available phosphorus",
+      "significance": "None",
+      "Path coefficient": -0.323,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "organic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 0.774,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "organic phosphorus",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": -0.216,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "phoD community diversity",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": -0.648,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "phoD community richness",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 0.834,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community diversity",
+      "significance": "None",
+      "Path coefficient": 0.827,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "pH",
+      "Construct Moderator": "None",
+      "Construct to": "phoD community richness",
+      "significance": "None",
+      "Path coefficient": 1.059,
+      "Observations": null,
+      "model": "2"
+    },
+	{
+      "Construct from": "soil organic carbon",
+      "Construct Moderator": "None",
+      "Construct to": "alkaline phosphatase activity",
+      "significance": "None",
+      "Path coefficient": 0.427,
+      "Observations": null,
+      "model": "2"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fmicb.2022.1013896",
+  "information_source": "Only seven PCs given in text and no p-values; image only"
+}

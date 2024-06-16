@@ -1,0 +1,69 @@
+{
+  "constructs": [
+    {
+      "name": "Differential Leadership",
+      "definition": ""
+    },
+	{
+      "name": "perceived organizational support",
+      "definition": "" 
+    },
+	{
+      "name": "Personal Organizational Fit",
+      "definition": "" 
+    },
+	{
+      "name": "Employee Performance",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Differential Leadership",
+      "Construct Moderator": "None",
+      "Construct to": "perceived organizational support",
+      "significance": "<0.001",
+      "Path coefficient": 0.312,
+      "Observations": 358,
+      "model": "1"
+    },
+	{
+      "Construct from": "Differential Leadership",
+      "Construct Moderator": "None",
+      "Construct to": "Employee Performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.438,
+      "Observations": 358,
+      "model": "1"
+    },
+	{
+      "Construct from": "Differential Leadership",
+      "Construct Moderator": "Individual-Organizational Fit",
+      "Construct to": "Employee Performance",
+      "significance": "<0.01",
+      "Path coefficient": -0.112,
+      "Observations": 358,
+      "model": "1"
+    },
+	{
+      "Construct from": "perceived organizational support",
+      "Construct Moderator": "None",
+      "Construct to": "Employee Performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.375,
+      "Observations": 358,
+      "model": "1"
+    },
+	{
+      "Construct from": "perceived organizational support",
+      "Construct Moderator": "Individual-Organizational Fit",
+      "Construct to": "Employee Performance",
+      "significance": "<0.01",
+      "Path coefficient": -0.146,
+      "Observations": 358,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2023.1081073",
+  "information_source": "POS -> EP image only"
+}

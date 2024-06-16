@@ -1,0 +1,91 @@
+{
+  "constructs": [
+    {
+      "name": "Entrepreneurial Education",
+      "definition": ""
+    },
+    {
+      "name": "Budgeting Financial Literacy",
+      "definition": ""
+    },
+    {
+      "name": "Access to Credit Facility",
+      "definition": "" 
+    },
+	{
+      "name": "Entrepreneurial Performance",
+      "definition": "" 
+    },
+	{
+      "name": "Poverty Reduction",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Access to Credit Facility",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.573,
+      "Observations": 172,
+      "model": "1"
+    },
+	{
+      "Construct from": "Access to Credit Facility",
+      "Construct Moderator": "None",
+      "Construct to": "Poverty Reduction",
+      "significance": "<0.001",
+      "Path coefficient": 0.541,
+      "Observations": 172,
+      "model": "1"
+    },
+	{
+      "Construct from": "Budgeting Financial Literacy",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Performance",
+      "significance": "<0.01",
+      "Path coefficient": 0.171,
+      "Observations": 172,
+      "model": "1"
+    },
+	{
+      "Construct from": "Budgeting Financial Literacy",
+      "Construct Moderator": "None",
+      "Construct to": "Poverty Reduction",
+      "significance": "<0.01",
+      "Path coefficient": 0.147,
+      "Observations": 172,
+      "model": "1"
+    },
+	{
+      "Construct from": "Entrepreneurship Education",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Performance",
+      "significance": "<0.01",
+      "Path coefficient": 0.253,
+      "Observations": 172,
+      "model": "1"
+    },
+	{
+      "Construct from": "Entrepreneurship Education",
+      "Construct Moderator": "None",
+      "Construct to": "Entrepreneurial Performance",
+      "significance": "<0.01",
+      "Path coefficient": 0.258,
+      "Observations": 172,
+      "model": "1"
+    },
+	{
+      "Construct from": "Entrepreneurial Performance",
+      "Construct Moderator": "None",
+      "Construct to": "Poverty Reduction",
+      "significance": ">0.1",
+      "Path coefficient": 0.132,
+      "Observations": 172,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fsoc.2022.1038006",
+  "information_source": "According to text EP -> EE, EP->BFL, EP->ACF"
+}

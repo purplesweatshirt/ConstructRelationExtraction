@@ -1,0 +1,59 @@
+{
+  "constructs": [
+    {
+      "name": "Macroeconomic",
+      "definition": ""
+    },
+	{
+      "name": "Infant Mortality Rate",
+      "definition": "" 
+    },
+	{
+      "name": "Sociodemographic",
+      "definition": "" 
+    },
+	{
+      "name": "Health status and resources",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Macroeconomic",
+      "Construct Moderator": "None",
+      "Construct to": "Sociodemographic",
+      "significance": "<0.001",
+      "Path coefficient": -0.916,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Macroeconomic",
+      "Construct Moderator": "None",
+      "Construct to": "Health status and resources",
+      "significance": "<0.001",
+      "Path coefficient": 0.772,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Sociodemographic",
+      "Construct Moderator": "None",
+      "Construct to": "Infant Mortality Rate",
+      "significance": "<0.001",
+      "Path coefficient": 0.447,
+      "Observations": null,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health status and resources",
+      "Construct Moderator": "None",
+      "Construct to": "Infant Mortality Rate",
+      "significance": "<0.001",
+      "Path coefficient": -0.617,
+      "Observations": null,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ejihpe13060075"
+}

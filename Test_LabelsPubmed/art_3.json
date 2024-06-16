@@ -1,0 +1,150 @@
+{
+  "constructs": [
+    {
+      "name": "Climate Change Awareness",
+      "definition": ""
+    },
+	{
+      "name": "Perceived Ease of Use",
+      "definition": ""
+    },
+	{
+      "name": "Perceived Usefulness",
+      "definition": ""
+    },
+	{
+      "name": "Consequence Awareness",
+      "definition": ""
+    },
+	{
+      "name": "Low-carbon Production Willingness",
+      "definition": ""
+    },
+	{
+      "name": "Low-carbon Production Behavior",
+      "definition": ""
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Climate Change Awareness",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Ease of Use",
+      "significance": "<0.001",
+      "Path coefficient": 0.208,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Climate Change Awareness",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Usefulness",
+      "significance": ">0.1",
+      "Path coefficient": 0.030,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Ease of Use",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Usefulness",
+      "significance": "<0.001",
+      "Path coefficient": 0.762,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Climate Change Awareness",
+      "Construct Moderator": "None",
+      "Construct to": "Consequence Awareness",
+      "significance": "<0.001",
+      "Path coefficient": 0.119,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Consequence Awareness",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Usefulness",
+      "significance": "<0.001",
+      "Path coefficient": 0.702,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Ease of Use",
+      "Construct Moderator": "None",
+      "Construct to": "Low-carbon Production Willingness",
+      "significance": "<0.01",
+      "Path coefficient": 0.107,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "None",
+      "Construct to": "Low-carbon Production Willingness",
+      "significance": "<0.001",
+      "Path coefficient": 0.602,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Consequence Awareness",
+      "Construct Moderator": "None",
+      "Construct to": "Low-carbon Production Willingness",
+      "significance": "<0.001",
+      "Path coefficient": 0.293,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Climate Change Awareness",
+      "Construct Moderator": "None",
+      "Construct to": "Low-carbon Production Willingness",
+      "significance": ">0.1",
+      "Path coefficient": 0.038,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Low-carbon Production Willingness",
+      "Construct Moderator": "None",
+      "Construct to": "Low-carbon Production Behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.687,
+      "Observations": 920,
+      "model": "1"
+    },
+  {
+      "Construct from": "Climate Change Awareness",
+      "Construct Moderator": "Perceived Ease of Use",
+      "Construct to": "Low-carbon Production Willingness",
+      "significance": "<0.001",
+      "Path coefficient": 0.127,
+      "Observations": 920,
+      "model": "1"
+    },
+  {
+      "Construct from": "Climate Change Awareness",
+      "Construct Moderator": "Consequence Awareness",
+      "Construct to": "Low-carbon Production Willingness",
+      "significance": "<0.05",
+      "Path coefficient": 0.030,
+      "Observations": 920,
+      "model": "1"
+    },
+	{
+      "Construct from": "Climate Change Awareness",
+      "Construct Moderator": "None",
+      "Construct to": "Low-carbon Production Behavior",
+      "significance": ">0.1",
+      "Path coefficient": 0.017,
+      "Observations": 920,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph20010619",
+  "information_source": "table"
+}
+

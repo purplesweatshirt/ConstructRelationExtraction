@@ -1,0 +1,50 @@
+{
+  "constructs": [
+    {
+      "name": "Material capital",
+      "definition": ""
+    },
+	{
+      "name": "Human capital",
+      "definition": "" 
+    },
+	{
+      "name": "Social capital",
+      "definition": "" 
+    },
+	{
+      "name": "Socioeconomic status",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Material capital",
+      "Construct Moderator": "None",
+      "Construct to": "Socioeconomic status",
+      "significance": "None",
+      "Path coefficient": 0.67,
+      "Observations": 91830,
+      "model": "1"
+    },
+	{
+      "Construct from": "Human capital",
+      "Construct Moderator": "None",
+      "Construct to": "Socioeconomic status",
+      "significance": "None",
+      "Path coefficient": 0.41,
+      "Observations": 91830,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social capital",
+      "Construct Moderator": "Age",
+      "Construct to": "Socioeconomic status",
+      "significance": "None",
+      "Path coefficient": 0.005,
+      "Observations": 91830,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12889-023-15206-9"
+}

@@ -1,0 +1,183 @@
+{
+  "constructs": [
+    {
+      "name": "Supervisor/Clinical Leader Support for Patient Safety",
+      "definition": ""
+    },
+	{
+      "name": "Hospital Management Support for Patient Safety",
+      "definition": "" 
+    },
+	{
+      "name": "Psychological Safety",
+      "definition": "" 
+    },
+	{
+      "name": "Handoff's and Information Exchange",
+      "definition": "" 
+    },
+	{
+      "name": "Teamwork",
+      "definition": "" 
+    },
+	{
+      "name": "Error Reporting Intention",
+      "definition": "" 
+    },
+	{
+      "name": "Withholding Voice",
+      "definition": "" 
+    },
+	{
+      "name": "Overall Patient Safety",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Supervisor/Clinical Leader Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Handoff's and Information Exchange",
+      "significance": "<0.05",
+      "Path coefficient": 0.16,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Supervisor/Clinical Leader Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Error Reporting Intention",
+      "significance": ">0.05",
+      "Path coefficient": 0.10,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Supervisor/Clinical Leader Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Preference for Community Care",
+      "significance": ">0.05",
+      "Path coefficient": -0.01,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Supervisor/Clinical Leader Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Withholding Voice",
+      "significance": "<0.01",
+      "Path coefficient": -0.21,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Hospital Management Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Handoff's and Information Exchange",
+      "significance": "<0.001",
+      "Path coefficient": 0.35,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Hospital Management Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Teamwork",
+      "significance": ">0.05",
+      "Path coefficient": 0.06,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Hospital Management Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Error Reporting Intention",
+      "significance": "<0.01",
+      "Path coefficient": 0.18,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Hospital Management Support for Patient Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Withholding Voice",
+      "significance": "<0.01",
+      "Path coefficient": -0.15,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Psychological Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Handoff's and Information Exchange",
+      "significance": "<0.05",
+      "Path coefficient": 0.17,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Psychological Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Teamwork",
+      "significance": "<0.001",
+      "Path coefficient": 0.49,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Psychological Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Error Reporting Intention",
+      "significance": "<0.05",
+      "Path coefficient": 0.18,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Psychological Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Withholding Voice",
+      "significance": "<0.05",
+      "Path coefficient": -0.15,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Handoff's and Information Exchange",
+      "Construct Moderator": "None",
+      "Construct to": "Overall Patient Safety",
+      "significance": "<0.001",
+      "Path coefficient": 0.34,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Teamwork",
+      "Construct Moderator": "None",
+      "Construct to": "Overall Patient Safety",
+      "significance": "<0.001",
+      "Path coefficient": 0.30,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Error Reporting Intention",
+      "Construct Moderator": "None",
+      "Construct to": "Overall Patient Safety",
+      "significance": "<0.05",
+      "Path coefficient": 0.13,
+      "Observations": 526,
+      "model": "1"
+    },
+	{
+      "Construct from": "Withholding Voice",
+      "Construct Moderator": "None",
+      "Construct to": "Overall Patient Safety",
+      "significance": "<0.001",
+      "Path coefficient": -0.20,
+      "Observations": 526,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12912-023-01196-x"
+}

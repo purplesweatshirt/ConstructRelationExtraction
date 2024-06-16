@@ -1,0 +1,96 @@
+{
+  "constructs": [
+    {
+      "name": "Self-efficacy",
+      "definition": ""
+    },
+	{
+      "name": "Social support",
+      "definition": "" 
+    },
+	{
+      "name": "Prenatal stress",
+      "definition": "" 
+    },
+	{
+      "name": "Resilience",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Social support",
+      "significance": "<0.001",
+      "Path coefficient": 7.8316,
+      "Observations": 1071,
+      "model": "1"
+    },
+	{
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Resilience",
+      "significance": "<0.001",
+      "Path coefficient": 8.3475,
+      "Observations": 1071,
+      "model": "1"
+    },
+	{
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Prenatal stress",
+      "significance": "<0.001",
+      "Path coefficient": -2.5306,
+      "Observations": 1071,
+      "model": "1"
+    },
+    {
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "Social Support",
+      "Construct to": "Prenatal stress",
+      "significance": "<0.001",
+      "Path coefficient": -1.5933,
+      "Observations": 1071,
+      "model": "1"
+    },
+    {
+      "Construct from": "Self-efficacy",
+      "Construct Moderator": "Resilience",
+      "Construct to": "Prenatal stress",
+      "significance": "<0.001",
+      "Path coefficient": -3.0388,
+      "Observations": 1071,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social support",
+      "Construct Moderator": "None",
+      "Construct to": "Prenatal stress",
+      "significance": "<0.001",
+      "Path coefficient": -0.2035,
+      "Observations": 1071,
+      "model": "1"
+    },
+	{
+      "Construct from": "Resilience",
+      "Construct Moderator": "None",
+      "Construct to": "Prenatal stress",
+      "significance": "<0.001",
+      "Path coefficient": -0.3640,
+      "Observations": 1071,
+      "model": "1"
+    },
+    {
+      "Construct from": "Parity",
+      "Construct Moderator": "None",
+      "Construct to": "Prenatal stress",
+      "significance": "<0.001",
+      "Path coefficient": -3.370,
+      "Observations": 1071,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12884-023-06184-2",
+  "information_source": "mediating from table; rest from image"
+}

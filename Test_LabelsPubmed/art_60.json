@@ -1,0 +1,205 @@
+{
+  "constructs": [
+    {
+      "name": "fair, poor or very poor self-rated health",
+      "definition": ""
+    },
+	{
+      "name": "bodily pain",
+      "definition": "" 
+    },
+	{
+      "name": "age",
+      "definition": "" 
+    },
+	{
+      "name": "chronic disease(s)",
+      "definition": "" 
+    },
+	{
+      "name": "ambulatory physical healthcare",
+      "definition": "" 
+    },
+	{
+      "name": "gender",
+      "definition": "" 
+    },
+	{
+      "name": "depression",
+      "definition": "" 
+    },
+	{
+      "name": "anxiety",
+      "definition": "" 
+    },
+	{
+      "name": "ambulatory mental healthcare",
+      "definition": "" 
+    },
+	{
+      "name": "<18 months in Germany",
+      "definition": "" 
+    },
+	{
+      "name": "emergency care (outcome)",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "fair, poor or very poor self-rated health",
+      "Construct Moderator": "None",
+      "Construct to": "age",
+      "significance": ">0.1",
+      "Path coefficient": 0.003,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "fair, poor or very poor self-rated health",
+      "Construct Moderator": "None",
+      "Construct to": "chronic disease",
+      "significance": "<0.001",
+      "Path coefficient": 0.463,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "fair, poor or very poor self-rated health",
+      "Construct Moderator": "None",
+      "Construct to": "level of pain",
+      "significance": "<0.001",
+      "Path coefficient": 0.091,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "ambulatory physical healthcare",
+      "Construct Moderator": "None",
+      "Construct to": "fair, poor or very poor self-rated health",
+      "significance": "<0.05",
+      "Path coefficient": 0.207,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "ambulatory physical healthcare",
+      "Construct Moderator": "None",
+      "Construct to": "< 18 months in Germany",
+      "significance": ">0.1",
+      "Path coefficient": 0.053,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "ambulatory physical healthcare",
+      "Construct Moderator": "None",
+      "Construct to": "gender",
+      "significance": ">0.1",
+      "Path coefficient": 0.038,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "ambulatory mental healthcare",
+      "Construct Moderator": "None",
+      "Construct to": "depression",
+      "significance": ">0.1",
+      "Path coefficient": 0.005,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "ambulatory mental healthcare",
+      "Construct Moderator": "None",
+      "Construct to": "anxiety",
+      "significance": "<0.01",
+      "Path coefficient": 0.202,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "ambulatory mental healthcare",
+      "Construct Moderator": "None",
+      "Construct to": "< 18 months in Germany",
+      "significance": "<0.1",
+      "Path coefficient": 0.138,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "ambulatory mental healthcare",
+      "Construct Moderator": "None",
+      "Construct to": "gender",
+      "significance": ">0.1",
+      "Path coefficient": 0.066,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "emergency care (outcome)",
+      "Construct Moderator": "None",
+      "Construct to": "ambulatory physical care",
+      "significance": ">0.1",
+      "Path coefficient": 0.388,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "emergency care (outcome)",
+      "Construct Moderator": "None",
+      "Construct to": "fair, poor or very poor self-rated health",
+      "significance": "<0.1",
+      "Path coefficient": 0.541,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "emergency care (outcome)",
+      "Construct Moderator": "None",
+      "Construct to": "ambulatory mental care",
+      "significance": "<0.05",
+      "Path coefficient": 0.842,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "emergency care (outcome)",
+      "Construct Moderator": "None",
+      "Construct to": "depression",
+      "significance": ">0.1",
+      "Path coefficient": -0.102,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "emergency care (outcome)",
+      "Construct Moderator": "None",
+      "Construct to": "anxiety",
+      "significance": "<0.1",
+      "Path coefficient": 0.602,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "emergency care (outcome)",
+      "Construct Moderator": "None",
+      "Construct to": "< 18 months in Germany",
+      "significance": ">0.1",
+      "Path coefficient": 0.021,
+      "Observations": 309,
+      "model": "1"
+    },
+	{
+      "Construct from": "emergency care (outcome)",
+      "Construct Moderator": "None",
+      "Construct to": "gender",
+      "significance": ">0.1",
+      "Path coefficient": -0.398,
+      "Observations": 309,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12939-023-01914-6",
+  "information_source": "table only"
+}

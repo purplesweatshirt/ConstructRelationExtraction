@@ -1,0 +1,91 @@
+{
+  "constructs": [
+    {
+      "name": "Tax evasion",
+      "definition": ""
+    },
+    {
+      "name": "Tax education",
+      "definition": ""
+    },
+    {
+      "name": "Technology",
+      "definition": "" 
+    },
+	{
+      "name": "Taxpayers' psychological egoism",
+      "definition": "" 
+    },
+	{
+      "name": "Tax revenue collection performance",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Tax evasion",
+      "Construct Moderator": "None",
+      "Construct to": "Taxpayers' psychological egoism",
+      "significance": "<0.001",
+      "Path coefficient": 0.875,
+      "Observations": 395,
+      "model": "1"
+    },
+	{
+      "Construct from": "Tax evasion",
+      "Construct Moderator": "None",
+      "Construct to": "Tax revenue collection performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.774,
+      "Observations": 395,
+      "model": "1"
+    },
+	{
+      "Construct from": "Tax education",
+      "Construct Moderator": "None",
+      "Construct to": "Taxpayers' psychological egoism",
+      "significance": "<0.001",
+      "Path coefficient": 0.883,
+      "Observations": 395,
+      "model": "1"
+    },
+	{
+      "Construct from": "Tax education",
+      "Construct Moderator": "None",
+      "Construct to": "Tax revenue collection performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.693,
+      "Observations": 395,
+      "model": "1"
+    },
+	{
+      "Construct from": "Technology",
+      "Construct Moderator": "None",
+      "Construct to": "Taxpayers' psychological egoism",
+      "significance": "<0.001",
+      "Path coefficient": 0.736,
+      "Observations": 395,
+      "model": "1"
+    },
+	{
+      "Construct from": "Technology",
+      "Construct Moderator": "None",
+      "Construct to": "Tax revenue collection performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.878,
+      "Observations": 395,
+      "model": "1"
+    },
+	{
+      "Construct from": "Taxpayers' psychological egoism",
+      "Construct Moderator": "None",
+      "Construct to": "Tax revenue collection performance",
+      "significance": "<0.001",
+      "Path coefficient": 0.893,
+      "Observations": 395,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2023.1045537",
+  "information_source": "Table; sounds different from text"
+}

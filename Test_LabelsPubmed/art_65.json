@@ -1,0 +1,55 @@
+{
+  "constructs": [
+    {
+      "name": "Team cohesion",
+      "definition": ""
+    },
+	{
+      "name": "Communication openness",
+      "definition": "" 
+    },
+	{
+      "name": "Nosocomial infection reporting",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Communication openness",
+      "Construct Moderator": "None",
+      "Construct to": "Team cohesion",
+      "significance": "<0.001",
+      "Path coefficient": 0.887,
+      "Observations": 3512,
+      "model": "1"
+    },
+	{
+      "Construct from": "Communication openness",
+      "Construct Moderator": "None",
+      "Construct to": "Nosocomial infection reporting",
+      "significance": "<0.001",
+      "Path coefficient": 0.54,
+      "Observations": 3512,
+      "model": "1"
+    },
+	{
+      "Construct from": "Team cohesion",
+      "Construct Moderator": "None",
+      "Construct to": "Nosocomial infection reporting",
+      "significance": "<0.001",
+      "Path coefficient": 0.328,
+      "Observations": 3512,
+      "model": "1"
+    },
+    {
+      "Construct from": "Communication openness",
+      "Construct Moderator": "Team cohesion",
+      "Construct to": "Nosocomial infection reporting",
+      "significance": "",
+      "Path coefficient": 0.291,
+      "Observations": 3512,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12913-022-08646-3"
+}

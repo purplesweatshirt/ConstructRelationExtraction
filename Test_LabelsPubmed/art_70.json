@@ -1,0 +1,99 @@
+{
+  "constructs": [
+    {
+      "name": "Attitude",
+      "definition": ""
+    },
+	{
+      "name": "Knowledge",
+      "definition": "" 
+    },
+	{
+      "name": "Practice",
+      "definition": "" 
+    },
+	{
+      "name": "Frequency of sweets",
+      "definition": "" 
+    },
+	{
+      "name": "Overweight",
+      "definition": "" 
+    },
+	{
+      "name": "Diabetes",
+      "definition": "" 
+    },
+	{
+      "name": "Pre-diabetes",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Knowledge",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude",
+      "significance": "<0.001",
+      "Path coefficient": 0.48,
+      "Observations": 457,
+      "model": "1"
+    },
+	{
+      "Construct from": "Knowledge",
+      "Construct Moderator": "None",
+      "Construct to": "Practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.46,
+      "Observations": 457,
+      "model": "1"
+    },
+	{
+      "Construct from": "Attitude",
+      "Construct Moderator": "None",
+      "Construct to": "Practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.12,
+      "Observations": 457,
+      "model": "1"
+    },
+	{
+      "Construct from": "Frequency of sweets",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge",
+      "significance": "None",
+      "Path coefficient": -0.14,
+      "Observations": 457,
+      "model": "1"
+    },
+	{
+      "Construct from": "Overweight",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge",
+      "significance": "None",
+      "Path coefficient": -0.22,
+      "Observations": 457,
+      "model": "1"
+    },
+	{
+      "Construct from": "Diabetes",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge",
+      "significance": "<0.05",
+      "Path coefficient": -0.81,
+      "Observations": 457,
+      "model": "1"
+    },
+	{
+      "Construct from": "Pre-diabetes",
+      "Construct Moderator": "None",
+      "Construct to": "Knowledge",
+      "significance": "None",
+      "Path coefficient": -0.49,
+      "Observations": 457,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fnut.2023.1268599",
+  "information_source": "Frequency of sweets, Overweight, Pre-diabetes are image only"
+}

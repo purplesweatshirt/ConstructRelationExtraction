@@ -1,0 +1,161 @@
+{
+  "constructs": [
+    {
+      "name": "Information Quality",
+      "definition": ""
+    },
+    {
+      "name": "Source Credibility",
+      "definition": ""
+    },
+    {
+      "name": "HPV Severity",
+      "definition": "" 
+    },
+	{
+      "name": "HPV Susceptibility",
+      "definition": "" 
+    },
+	{
+      "name": "Response Efficacy",
+      "definition": "" 
+    },
+	{
+      "name": "Secondary Risk",
+      "definition": "" 
+    },
+	{
+      "name": "Intention to Vaccinate",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Information Quality",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived HPV Severity",
+      "significance": "<0.01",
+      "Path coefficient": 0.183,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Information Quality",
+      "Construct Moderator": "None",
+      "Construct to": "HPV Susceptibility",
+      "significance": "<0.001",
+      "Path coefficient": 0.226,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "None",
+      "Construct to": "Response Efficacy",
+      "significance": ">0.05",
+      "Path coefficient": 0.097,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "None",
+      "Construct to": "Secondary Risk",
+      "significance": ">0.05",
+      "Path coefficient": 0.695,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived HPV Severity",
+      "significance": "<0.05",
+      "Path coefficient": 0.170,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "None",
+      "Construct to": "HPV Susceptibility",
+      "significance": "<0.05",
+      "Path coefficient": 0.147,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "None",
+      "Construct to": "Vaccine Response Efficacy",
+      "significance": "<0.001",
+      "Path coefficient": 0.264,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Secondary Risk of HPV",
+      "significance": "<0.001",
+      "Path coefficient": -0.274,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived HPV Severity",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to Vaccinate",
+      "significance": ">0.05",
+      "Path coefficient": -0.036,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "HPV Susceptibility",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to Vaccinate",
+      "significance": ">0.05",
+      "Path coefficient": 0.493,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Vaccine Response Efficacy",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to Vaccinate",
+      "significance": "<0.001",
+      "Path coefficient": 0.091,
+      "Observations": 359,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Secondary Risk of HPV",
+      "Construct Moderator": "None",
+      "Construct to": "Intention to Vaccinate",
+      "significance": "<0.001",
+      "Path coefficient": -0.200,
+      "Observations": 359,
+      "model": "1"
+    },
+    {
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "Vaccine Response Efficacy",
+      "Construct to": "Intention to Vaccinate",
+      "significance": "",
+      "Path coefficient": 0.163,
+      "Observations": 359,
+      "model": "1"
+    },
+    {
+      "Construct from": "Source Credibility",
+      "Construct Moderator": "Perceived Secondary Risk of HPV",
+      "Construct to": "Intention to Vaccinate",
+      "significance": "",
+      "Path coefficient": 0.097,
+      "Observations": 359,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpubh.2022.1024399"
+}

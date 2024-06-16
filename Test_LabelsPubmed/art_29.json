@@ -1,0 +1,213 @@
+{
+  "constructs": [
+    {
+      "name": "Emotional dysregulation",
+      "definition": ""
+    },
+    {
+      "name": "Depressiveness",
+      "definition": ""
+    },
+    {
+      "name": "Nonsuicidal self-injury",
+      "definition": "" 
+    },
+	{
+      "name": "Severity of suicidality",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Depressiveness",
+      "significance": "<0.001",
+      "Path coefficient": 0.68,
+      "Observations": 1025,
+      "model": "Male"
+    },
+	{
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.1",
+      "Path coefficient": 0.11,
+      "Observations": 1025,
+      "model": "Male"
+    },
+	{
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Nonsuicidal self-injury",
+      "significance": "<0.001",
+      "Path coefficient": 0.31,
+      "Observations": 1025,
+      "model": "Male"
+    },
+	{
+      "Construct from": "Depressiveness",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.23,
+      "Observations": 1025,
+      "model": "Male"
+    },
+	{
+      "Construct from": "Nonsuicidal self-injury",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": ">0.1",
+      "Path coefficient": 0.01,
+      "Observations": 1025,
+      "model": "Male"
+    },
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "Depressiveness",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.01",
+      "Path coefficient": 0.15,
+      "Observations": 1025,
+      "model": "Male"
+    },
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "Nonsuicidal self-injury",
+      "Construct to": "Severity of suicidality",
+      "significance": ">0.1",
+      "Path coefficient": 0.00,
+      "Observations": 1025,
+      "model": "Male"
+    },
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Depressiveness",
+      "significance": "<0.001",
+      "Path coefficient": 0.75,
+      "Observations": 2117,
+      "model": "All"
+    },
+	{
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.19,
+      "Observations": 2117,
+      "model": "All"
+    },
+	{
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Nonsuicidal self-injury",
+      "significance": "<0.001",
+      "Path coefficient": 0.42,
+      "Observations": 2117,
+      "model": "All"
+    },
+	{
+      "Construct from": "Depressiveness",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.16,
+      "Observations": 2117,
+      "model": "All"
+    },
+	{
+      "Construct from": "Nonsuicidal self-injury",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.27,
+      "Observations": 2117,
+      "model": "All"
+    },
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "Depressiveness",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.11,
+      "Observations": 1025,
+      "model": "All"
+    },
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "Nonsuicidal self-injury",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.01",
+      "Path coefficient": 0.11,
+      "Observations": 1025,
+      "model": "All"
+    },
+	{
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Depressiveness",
+      "significance": "<0.001",
+      "Path coefficient": 0.78,
+      "Observations": 1025,
+      "model": "Female"
+    },
+	{
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.22,
+      "Observations": 1025,
+      "model": "Female"
+    },
+	{
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "None",
+      "Construct to": "Nonsuicidal self-injury",
+      "significance": "<0.001",
+      "Path coefficient": 0.45,
+      "Observations": 1025,
+      "model": "Female"
+    },
+	{
+      "Construct from": "Depressiveness",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.13,
+      "Observations": 1025,
+      "model": "Female"
+    },
+	{
+      "Construct from": "Nonsuicidal self-injury",
+      "Construct Moderator": "None",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.35,
+      "Observations": 1025,
+      "model": "Female"
+    },
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "Depressiveness",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.05",
+      "Path coefficient": 0.12,
+      "Observations": 1025,
+      "model": "Female"
+    },
+    {
+      "Construct from": "Emotional dysregulation",
+      "Construct Moderator": "Nonsuicidal self-injury",
+      "Construct to": "Severity of suicidality",
+      "significance": "<0.001",
+      "Path coefficient": 0.18,
+      "Observations": 1025,
+      "model": "Female"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s13034-023-00699-4",
+  "information_source": "Images and tables; only mediating variables in text"
+}

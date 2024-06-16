@@ -1,0 +1,82 @@
+{
+  "constructs": [
+    {
+      "name": "Quality of Work Life",
+      "definition": ""
+    },
+    {
+      "name": "Personal Well-being",
+      "definition": ""
+    },
+    {
+      "name": "Quality of Life",
+      "definition": "" 
+    },
+	{
+      "name": "Patient Centred Care",
+      "definition": "" 
+    },
+	{
+      "name": "Discordant Care",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Quality of Work Life",
+      "Construct Moderator": "None",
+      "Construct to": "Patient Centred Care",
+      "significance": "<0.001",
+      "Path coefficient":  0.25,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Quality of Work Life",
+      "Construct Moderator": "None",
+      "Construct to": "Discordant Care",
+      "significance": "<0.001",
+      "Path coefficient": 0.02,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Personal Well-being",
+      "Construct Moderator": "None",
+      "Construct to": "Patient Centred Care",
+      "significance": "<0.001",
+      "Path coefficient": 0.15,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Personal Well-being",
+      "Construct Moderator": "None",
+      "Construct to": "Discordant Care",
+      "significance": "<0.001",
+      "Path coefficient": -0.08,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Quality of Life",
+      "Construct Moderator": "None",
+      "Construct to": "Patient Centred Care",
+      "significance": "<0.001",
+      "Path coefficient": -0.02,
+      "Observations": 1580,
+      "model": "1"
+    },
+	{
+      "Construct from": "Quality of Life",
+      "Construct Moderator": "None",
+      "Construct to": "Discordant Care",
+      "significance": "<0.001",
+      "Path coefficient": 0.19,
+      "Observations": 1580,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1038/s41598-022-25057-w",
+  "information_source": "Only 3 pcs, one wrong; different construct names"
+}

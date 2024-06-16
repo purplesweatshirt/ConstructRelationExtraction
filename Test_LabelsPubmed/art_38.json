@@ -1,0 +1,162 @@
+{
+  "constructs": [
+    {
+      "name": "Working environment",
+      "definition": ""
+    },
+    {
+      "name": "Working conditions",
+      "definition": ""
+    },
+    {
+      "name": "Health and Safety",
+      "definition": "" 
+    },
+	{
+      "name": "Education and training",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived fairness",
+      "definition": "" 
+    },
+	{
+      "name": "Psychological safety",
+      "definition": "" 
+    },
+	{
+      "name": "Job satisfaction",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Working environment",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived fairness",
+      "significance": "<0.05",
+      "Path coefficient": 0.236,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Working conditions",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived fairness",
+      "significance": "<0.01",
+      "Path coefficient": 0.296,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health and Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived fairness",
+      "significance": "<0.01",
+      "Path coefficient": 0.163,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Education and training",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived fairness",
+      "significance": "<0.01",
+      "Path coefficient": 0.142,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Working environment",
+      "Construct Moderator": "None",
+      "Construct to": "Psychological safety",
+      "significance": "<0.01",
+      "Path coefficient": 0.206,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Working conditions",
+      "Construct Moderator": "None",
+      "Construct to": "Psychological safety",
+      "significance": "<0.01",
+      "Path coefficient": 0.357,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health and Safety",
+      "Construct Moderator": "None",
+      "Construct to": "Psychological safety",
+      "significance": "<0.01",
+      "Path coefficient": 0.226,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Education and training",
+      "Construct Moderator": "None",
+      "Construct to": "Psychological safety",
+      "significance": "<0.01",
+      "Path coefficient": 0.149,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Psychological safety",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived fairness",
+      "significance": "<0.05",
+      "Path coefficient": 0.157,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived fairness",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.01",
+      "Path coefficient": 0.259,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Psychological safety",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.01",
+      "Path coefficient": 0.545,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Age",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": ">0.1",
+      "Path coefficient": -0.062,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Income",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": "<0.1",
+      "Path coefficient": 0.063,
+      "Observations": 467,
+      "model": "1"
+    },
+	{
+      "Construct from": "Work experience",
+      "Construct Moderator": "None",
+      "Construct to": "Job satisfaction",
+      "significance": ">0.1",
+      "Path coefficient": 0.018,
+      "Observations": 467,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/bs13020125",
+  "information_source": "Keine Informationen zu Job Satisfaction im Text"
+}

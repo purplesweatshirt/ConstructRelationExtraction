@@ -1,0 +1,219 @@
+{
+  "constructs": [
+    {
+      "name": "Family financial difficulties",
+      "definition": ""
+    },
+	{
+      "name": "Consultation with a mental health specialist",
+      "definition": "" 
+    },
+	{
+      "name": "Lack of perceived antenatal emotional support from partner",
+      "definition": "" 
+    },
+	{
+      "name": "Difficult experience of pregnancy",
+      "definition": "" 
+    },
+	{
+      "name": "Prenatal psychological distress",
+      "definition": "" 
+    },
+	{
+      "name": "Lack of perceived postnatal instrumental support in baby’s care",
+      "definition": "" 
+    },
+	{
+      "name": "PNDS at 2 months",
+      "definition": "" 
+    },
+	{
+      "name": "Maternal difficulty to understand infant's cries",
+      "definition": "" 
+    },
+	{
+      "name": "Infant hospitalization",
+      "definition": "" 
+    },
+	{
+      "name": "Infant self-regulations difficulties",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Family financial difficulties",
+      "Construct Moderator": "None",
+      "Construct to": "Lack of perceived antenatal emotional support from partner",
+      "significance": "<0.001",
+      "Path coefficient": 0.13,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family financial difficulties",
+      "Construct Moderator": "None",
+      "Construct to": "Difficult experience of pregnancy",
+      "significance": "<0.001",
+      "Path coefficient": 0.03,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family financial difficulties",
+      "Construct Moderator": "None",
+      "Construct to": "Prenatal psychological distress",
+      "significance": "<0.001",
+      "Path coefficient": 0.04,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family financial difficulties",
+      "Construct Moderator": "None",
+      "Construct to": "Lack of perceived postnatal instrumental support in baby’s care",
+      "significance": "<0.001",
+      "Path coefficient": 0.12,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family financial difficulties",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.08,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Consultation with a mental health specialist",
+      "Construct Moderator": "None",
+      "Construct to": "Lack of perceived antenatal emotional support from partner",
+      "significance": "<0.001",
+      "Path coefficient": 0.12,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Consultation with a mental health specialist",
+      "Construct Moderator": "None",
+      "Construct to": "Difficult experience of pregnancy",
+      "significance": "<0.001",
+      "Path coefficient": 0.05,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Consultation with a mental health specialist",
+      "Construct Moderator": "None",
+      "Construct to": "Prenatal psychological distress",
+      "significance": "<0.001",
+      "Path coefficient": 0.12,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Consultation with a mental health specialist",
+      "Construct Moderator": "None",
+      "Construct to": "Lack of perceived postnatal instrumental support in baby’s care",
+      "significance": "<0.001",
+      "Path coefficient": 0.03,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Consultation with a mental health specialist",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.09,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Lack of perceived antenatal emotional support from partner",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.05,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Difficult experience of pregnancy",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.03,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Prenatal psychological distress",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.05,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Lack of perceived postnatal instrumental support in baby’s care",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.05,
+      "Observations": 11583,
+      "model": "1"
+    },
+    {
+      "Construct from": "Lack of perceived antenatal emotional support from partner",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.31,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Maternal difficulty to understand infant's cries",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": -0.06,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Maternal difficulty to understand infant's cries",
+      "Construct Moderator": "None",
+      "Construct to": "Infant self-regulations difficulties",
+      "significance": "<0.001",
+      "Path coefficient": -0.26,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Infant hospitalization",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.03,
+      "Observations": 11583,
+      "model": "1"
+    },
+	{
+      "Construct from": "Infant self-regulations difficulties",
+      "Construct Moderator": "None",
+      "Construct to": "PNDS at 2 months",
+      "significance": "<0.001",
+      "Path coefficient": 0.20,
+      "Observations": 11583,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/jcm12093204",
+  "information_source": "Some path are only in image"
+}

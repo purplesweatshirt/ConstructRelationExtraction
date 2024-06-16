@@ -1,0 +1,148 @@
+{
+  "constructs": [
+    {
+      "name": "E-health Literacy",
+      "definition": ""
+    },
+	{
+      "name": "Perceive Information Quality",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Service Quality",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived Usefulness",
+      "definition": "" 
+    },
+	{
+      "name": "Customer Satisfaction",
+      "definition": "" 
+    },
+	{
+      "name": "Expectation Confirmation",
+      "definition": "" 
+    },
+	{
+      "name": "Continuance Usage Intention",
+      "definition": "" 
+    },
+	{
+      "name": "Subjective Norm",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "E-health Literacy",
+      "Construct Moderator": "None",
+      "Construct to": "Perceive Information Quality",
+      "significance": "<0.001",
+      "Path coefficient": 0.32,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "E-health Literacy",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Service Quality",
+      "significance": "<0.001",
+      "Path coefficient": 0.2,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "E-health Literacy",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Usefulness",
+      "significance": "<0.001",
+      "Path coefficient": 0.379,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Usefulness",
+      "Construct Moderator": "None",
+      "Construct to": "Continuance Usage Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.191,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceive Information Quality",
+      "Construct Moderator": "None",
+      "Construct to": "Expectation Confirmation",
+      "significance": "<0.001",
+      "Path coefficient": 0.474,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived Service Quality",
+      "Construct Moderator": "None",
+      "Construct to": "Expectation Confirmation",
+      "significance": "<0.001",
+      "Path coefficient": 0.495,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Expectation Confirmation",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Usefulness",
+      "significance": "<0.001",
+      "Path coefficient": 0.600,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Expectation Confirmation",
+      "Construct Moderator": "None",
+      "Construct to": "Customer Satisfaction",
+      "significance": "<0.001",
+      "Path coefficient": 0.957,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Customer Satisfaction",
+      "Construct Moderator": "None",
+      "Construct to": "Continuance Usage Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.453,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Norm",
+      "Construct Moderator": "None",
+      "Construct to": "Perceived Service Quality",
+      "significance": "<0.001",
+      "Path coefficient": 0.704,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Norm",
+      "Construct Moderator": "None",
+      "Construct to": "Perceive Information Quality",
+      "significance": "<0.001",
+      "Path coefficient": 0.606,
+      "Observations": 334,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Norm",
+      "Construct Moderator": "None",
+      "Construct to": "Continuance Usage Intention",
+      "significance": "<0.001",
+      "Path coefficient": 0.372,
+      "Observations": 334,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12913-023-09393-9",
+  "information_source": "Image and table only"
+}

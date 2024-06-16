@@ -1,0 +1,50 @@
+{
+  "constructs": [
+    {
+      "name": "Subjective Norm",
+      "definition": ""
+    },
+    {
+      "name": "Attitude",
+      "definition": ""
+    },
+    {
+      "name": "Intention",
+      "definition": "" 
+    },
+	{
+      "name": "Perceived behavioral control",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Attitude",
+      "Construct Moderator": "None",
+      "Construct to": "Intention",
+      "significance": "",
+      "Path coefficient": 1.000,
+      "Observations": 385,
+      "model": "1"
+    },
+	{
+      "Construct from": "Subjective Norm",
+      "Construct Moderator": "None",
+      "Construct to": "Intention",
+      "significance": "",
+      "Path coefficient": 0.291,
+      "Observations": 385,
+      "model": "1"
+    },
+	{
+      "Construct from": "Perceived behavioral control",
+      "Construct Moderator": "None",
+      "Construct to": "Intention",
+      "significance": "",
+      "Path coefficient": 0.291,
+      "Observations": 385,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12913-022-08788-4"
+}

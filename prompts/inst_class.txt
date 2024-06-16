@@ -1,0 +1,12 @@
+#Definitions
+Constructs/ Latent Variables: Latent variables are unobserved constructs that cannot be directly measured but are inferred from a set of observed variables. They represent abstract concepts such as intelligence, satisfaction, or anxiety.
+Observed Variables: Observed variables, also known as indicators, are measurable variables that are used to estimate the latent variables. They are the data points collected through surveys, experiments, or other methods.
+Path Coefficients: Path coefficients, also known as beta values, are the (standardized) regression weights that represent the strength of the relationship between two variables in a SEM model.
+Construct relation: Construct relation refers to a hypothesized relationship between latent variables (constructs)
+
+#Instruction 
+Determine whether the given text contains information about relationships between constructs in the context of structural equation modeling (SEM). If such relationships are present, identify the names of the constructs involved and the path coefficients. Do not include information from sentences that only discuss SEM components without linking specific constructs or showing explicit relationships. Do not include general methodological descriptions, lists of SEM metrics, or discussions about the properties of constructs unless they are part of a direct relationship involving a beta value.
+Construct relationships are often described using terms like 'is related to,' 'is associated with,' 'predicts,' 'mediates,' 'moderates,' 'is correlated with,' and 'influences.' While these terms are commonly used, they do not always have to be explicitly stated when discussing construct relationships.
+
+#Inference
+Please carefully review the new sample (indicated by three tickmarks) and strictly follow the instructions. Only answer yes, if associated construct relationships and path (beta) coefficients are explicitly mentioned! If not, your answer should be "No".

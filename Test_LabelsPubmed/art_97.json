@@ -1,0 +1,157 @@
+{
+  "constructs": [
+    {
+      "name": "Social Support",
+      "definition": ""
+    },
+	{
+      "name": "Health Behavior",
+      "definition": "" 
+    },
+	{
+      "name": "Stress",
+      "definition": "" 
+    },
+	{
+      "name": "Subjective Health Status",
+      "definition": "" 
+    },
+	{
+      "name": "Quality of Life",
+      "definition": "" 
+    },
+	{
+      "name": "Sense of coherence",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": ">0.1",
+      "Path coefficient": 0.137,
+      "Observations": 239,
+      "model": "1"
+    },
+    {
+      "Construct from": "Subjective Health Status",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.1",
+      "Path coefficient": 0.108,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Health Behavior",
+      "significance": "<0.01",
+      "Path coefficient": 0.325,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Stress",
+      "significance": ">0.1",
+      "Path coefficient": 0.05,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Social Support",
+      "Construct Moderator": "None",
+      "Construct to": "Subjective Health Status",
+      "significance": ">0.1",
+      "Path coefficient": 0.084,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Sense of coherence",
+      "Construct Moderator": "None",
+      "Construct to": "Health Behavior",
+      "significance": ">0.1",
+      "Path coefficient": 0.178,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Sense of coherence",
+      "Construct Moderator": "None",
+      "Construct to": "Stress",
+      "significance": "<0.01",
+      "Path coefficient": -0.373,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Sense of coherence",
+      "Construct Moderator": "None",
+      "Construct to": "Subjective Health Status",
+      "significance": "<0.001",
+      "Path coefficient": 0.467,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Sense of coherence",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.01",
+      "Path coefficient": 0.371,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health Behavior",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.01",
+      "Path coefficient": -0.173,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Health Behavior",
+      "Construct Moderator": "None",
+      "Construct to": "Subjective Health Status",
+      "significance": ">0.1",
+      "Path coefficient": 0.032,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.001",
+      "Path coefficient": -0.557,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Health Behavior",
+      "significance": "<0.05",
+      "Path coefficient": -0.131,
+      "Observations": 239,
+      "model": "1"
+    },
+	{
+      "Construct from": "Stress",
+      "Construct Moderator": "None",
+      "Construct to": "Subjective Health Status",
+      "significance": ">0.1",
+      "Path coefficient": 0.015,
+      "Observations": 239,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1038/s41598-022-24825-y"
+}

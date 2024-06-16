@@ -1,0 +1,76 @@
+{
+  "constructs": [
+    {
+      "name": "Basic religiosity",
+      "definition": ""
+    },
+    {
+      "name": "Central duties",
+      "definition": ""
+    },
+    {
+      "name": "Experience",
+      "definition": ""
+    },
+    {
+      "name": "Knowledge",
+      "definition": ""
+    },
+    {
+      "name": "Orthopraxis",
+      "definition": ""
+    },
+    {
+      "name": "Attitude toward purchasing luxury counterfeit products",
+      "definition": ""
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Basic religiosity",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude toward purchasing luxury counterfeit products",
+      "significance": "<0.05",
+      "Path coefficient": -0.071,
+      "Observations": 394,
+      "model": "1"
+    },
+	{
+      "Construct from": "Central duties",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude toward purchasing luxury counterfeit products",
+      "significance": "<0.05",
+      "Path coefficient": -0.081,
+      "Observations": 394,
+      "model": "1"
+    },
+	{
+      "Construct from": "Experience",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude toward purchasing luxury counterfeit products",
+      "significance": "<0.001",
+      "Path coefficient": -0.132,
+      "Observations": 394,
+      "model": "1"
+    },
+	{
+      "Construct from": "Knowledge",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude toward purchasing luxury counterfeit products",
+      "significance": "<0.001",
+      "Path coefficient": -0.477,
+      "Observations": 394,
+      "model": "1"
+    },
+	{
+      "Construct from": "Orthopraxis",
+      "Construct Moderator": "None",
+      "Construct to": "Attitude toward purchasing luxury counterfeit products",
+      "significance": "<0.001",
+      "Path coefficient": -0.194,
+      "Observations": 394,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2022.927697"
+}

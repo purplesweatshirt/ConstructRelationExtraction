@@ -1,0 +1,46 @@
+{
+  "constructs": [
+    {
+      "name": "knowledge",
+      "definition": ""
+    },
+	{
+      "name": "attitude",
+      "definition": "" 
+    },
+	{
+      "name": "practice",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "knowledge",
+      "Construct Moderator": "None",
+      "Construct to": "attitude",
+      "significance": "<0.001",
+      "Path coefficient": 2.029,
+      "Observations": 551,
+      "model": "1"
+    },
+	{
+      "Construct from": "attitude",
+      "Construct Moderator": "None",
+      "Construct to": "practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.710,
+      "Observations": 551,
+      "model": "1"
+    },
+	{
+      "Construct from": "knowledge",
+      "Construct Moderator": "None",
+      "Construct to": "practice",
+      "significance": "<0.001",
+      "Path coefficient": 0.935,
+      "Observations": 551,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/healthcare11233073"
+}

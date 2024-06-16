@@ -1,0 +1,69 @@
+{
+  "constructs": [
+    {
+      "name": "Online Social Interactions",
+      "definition": ""
+    },
+    {
+      "name": "Generalized Trust",
+      "definition": ""
+    },
+    {
+      "name": "Trust in Parents",
+      "definition": "" 
+    },
+	{
+      "name": "Donation",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Online Social Interactions",
+      "Construct Moderator": "None",
+      "Construct to": "Donation",
+      "significance": "<0.001",
+      "Path coefficient": 0.143,
+      "Observations": 16655,
+      "model": "1"
+    },
+	{
+      "Construct from": "Online Social Interactions",
+      "Construct Moderator": "None",
+      "Construct to": "Generalized Trust",
+      "significance": "<0.001",
+      "Path coefficient": 0.035,
+      "Observations": 16655,
+      "model": "1"
+    },
+	{
+      "Construct from": "Online Social Interactions",
+      "Construct Moderator": "None",
+      "Construct to": "Trust in Parents",
+      "significance": "<0.001",
+      "Path coefficient": 0.052,
+      "Observations": 16655,
+      "model": "1"
+    },
+	{
+      "Construct from": "Generalized Trust",
+      "Construct Moderator": "None",
+      "Construct to": "Donation",
+      "significance": "<0.001",
+      "Path coefficient": 0.047,
+      "Observations": 16655,
+      "model": "1"
+    },
+	{
+      "Construct from": "Trust in Parents",
+      "Construct Moderator": "None",
+      "Construct to": "Donation",
+      "significance": "<0.01",
+      "Path coefficient": 0.002,
+      "Observations": 16655,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpsyg.2022.989137",
+  "information_source": "Different names (Generalized trust), no pc for trust in parents"
+}

@@ -1,0 +1,55 @@
+{
+  "constructs": [
+    {
+      "name": "Psychological capital",
+      "definition": ""
+    },
+    {
+      "name": "Organizational commitment",
+      "definition": ""
+    },
+    {
+      "name": "Organizational citizenship behavior",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Psychological capital",
+      "Construct Moderator": "None",
+      "Construct to": "Organizational commitment",
+      "significance": "<0.001",
+      "Path coefficient": 0.624,
+      "Observations": 746,
+      "model": "1"
+    },
+	{
+      "Construct from": "Psychological capital",
+      "Construct Moderator": "None",
+      "Construct to": "Organizational citizenship behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.339,
+      "Observations": 746,
+      "model": "1"
+    },
+	{
+      "Construct from": "Organizational commitment",
+      "Construct Moderator": "None",
+      "Construct to": "Organizational citizenship behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.234,
+      "Observations": 746,
+      "model": "1"
+    },
+    {
+      "Construct from": "Psychological capital",
+      "Construct Moderator": "Organizational commitment",
+      "Construct to": "Organizational citizenship behavior",
+      "significance": "<0.001",
+      "Path coefficient": 0.146,
+      "Observations": 746,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.1186/s12912-023-01332-7"
+}

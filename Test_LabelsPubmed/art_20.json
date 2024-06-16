@@ -1,0 +1,140 @@
+{
+  "constructs": [
+    {
+      "name": "Family Care Index",
+      "definition": ""
+    },
+    {
+      "name": "Meaning in Life",
+      "definition": ""
+    },
+    {
+      "name": "Depression",
+      "definition": "" 
+    },
+	{
+      "name": "Quality of Life",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+    {
+      "Construct from": "Family Care Index",
+      "Construct Moderator": "None",
+      "Construct to": "Meaning in Life",
+      "significance": "<0.01",
+      "Path coefficient": 0.284,
+      "Observations": 601,
+      "model": "1"
+    },
+	{
+      "Construct from": "Family Care Index",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.01",
+      "Path coefficient": -0.224,
+      "Observations": 601,
+      "model": "1"
+    },
+	{
+      "Construct from": "Meaning in Life",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.01",
+      "Path coefficient": -0.347,
+      "Observations": 601,
+      "model": "1"
+    },
+    {
+      "Construct from": "Family Care Index",
+      "Construct Moderator": "Meaning in Life",
+      "Construct to": "Depression",
+      "significance": "",
+      "Path coefficient": null,
+      "Observations": 601,
+      "model": "1"
+    },
+    {
+      "Construct from": "Family Care Index",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.05",
+      "Path coefficient": 0.098,
+      "Observations": 601,
+      "model": "2"
+    },
+	{
+      "Construct from": "Meaning in Life",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.01",
+      "Path coefficient": 0.257,
+      "Observations": 601,
+      "model": "2"
+    },
+    {
+      "Construct from": "Family Care Index",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": ">0.05",
+      "Path coefficient": 0.025,
+      "Observations": 601,
+      "model": "2"
+    },
+    {
+      "Construct from": "Family Care Index",
+      "Construct Moderator": "Meaning in Life",
+      "Construct to": "Quality of Life",
+      "significance": "",
+      "Path coefficient": null,
+      "Observations": 601,
+      "model": "2"
+    },
+    {
+      "Construct from": "Family Care",
+      "Construct Moderator": "None",
+      "Construct to": "Sources of Meaning in Life Scale for the Elderly",
+      "significance": "<0.01",
+      "Path coefficient": 0.283,
+      "Observations": 601,
+      "model": "3"
+    },
+    {
+      "Construct from": "Family Care",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.01",
+      "Path coefficient": -0.224,
+      "Observations": 601,
+      "model": "3"
+    },
+    {
+      "Construct from": "Sources of Meaning in Life Scale for the Elderly",
+      "Construct Moderator": "None",
+      "Construct to": "Depression",
+      "significance": "<0.01",
+      "Path coefficient": -0.347,
+      "Observations": 601,
+      "model": "3"
+    },
+    {
+      "Construct from": "Sources of Meaning in Life Scale for the Elderly",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.05",
+      "Path coefficient": 0.092,
+      "Observations": 601,
+      "model": "3"
+    },
+	{
+      "Construct from": "Depression",
+      "Construct Moderator": "None",
+      "Construct to": "Quality of Life",
+      "significance": "<0.05",
+      "Path coefficient": -0.410,
+      "Observations": 601,
+      "model": "3"
+    }
+  ],
+  "source": "https://doi.org/10.3389/fpubh.2023.1079593"
+}

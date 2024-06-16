@@ -1,0 +1,99 @@
+{
+  "constructs": [
+    {
+      "name": "Digital Transformation",
+      "definition": ""
+    },
+	{
+      "name": "Resources Integration",
+      "definition": "" 
+    },
+	{
+      "name": "Networking Capability",
+      "definition": "" 
+    },
+	{
+      "name": "Medical Tourism Ecosystem",
+      "definition": "" 
+    },
+	{
+      "name": "Hospital Performance",
+      "definition": "" 
+    }
+  ],
+  "relations": [
+	{
+      "Construct from": "Digital Transformation",
+      "Construct Moderator": "None",
+      "Construct to": "Networking Capability",
+      "significance": "None",
+      "Path coefficient":  0.326,
+      "Observations": 241,
+      "model": "1"
+    },
+	{
+      "Construct from": "Digital Transformation",
+      "Construct Moderator": "None",
+      "Construct to": "Hospital Performance",
+      "significance": "None",
+      "Path coefficient": 0.195,
+      "Observations": 241,
+      "model": "1"
+    },
+	{
+      "Construct from": "Resources Integration",
+      "Construct Moderator": "None",
+      "Construct to": "Networking Capability",
+      "significance": "None",
+      "Path coefficient": 1.018,
+      "Observations": 241,
+      "model": "1"
+    },
+	{
+      "Construct from": "Resources Integration",
+      "Construct Moderator": "None",
+      "Construct to": "Hospital Performance",
+      "significance": "None",
+      "Path coefficient": 4.156,
+      "Observations": 241,
+      "model": "1"
+    },
+	{
+      "Construct from": "Networking Capability",
+      "Construct Moderator": "None",
+      "Construct to": "Hospital Performance",
+      "significance": "None",
+      "Path coefficient": 0.312,
+      "Observations": 241,
+      "model": "1"
+    },
+	{
+      "Construct from": "Networking Capability",
+      "Construct Moderator": "Medical Tourism Ecosystem",
+      "Construct to": "Hospital Performance",
+      "significance": "None",
+      "Path coefficient": 0.132,
+      "Observations": 241,
+      "model": "1"
+    },
+    {
+      "Construct from": "Digital Transformation",
+      "Construct Moderator": "Networking Capability",
+      "Construct to": "Hospital Performance",
+      "significance": "None",
+      "Path coefficient": 0.102,
+      "Observations": 241,
+      "model": "1"
+    },
+    {
+      "Construct from": "Resources Integration",
+      "Construct Moderator": "Networking Capability",
+      "Construct to": "Hospital Performance",
+      "significance": "None",
+      "Path coefficient": 0.318,
+      "Observations": 241,
+      "model": "1"
+    }
+  ],
+  "source": "https://doi.org/10.3390/ijerph20010374"
+}
